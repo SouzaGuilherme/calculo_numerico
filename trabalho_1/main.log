@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.8.20)  5 SEP 2019 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.8.20)  5 SEP 2019 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -574,38 +574,124 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+
+
+! LaTeX Error: Command \caption@eh already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220   section about errors.\MessageBreak\@ehc}
+                                                
+? 
+\captionmargin=\dimen195
+\captionmargin@=\dimen196
+\captionwidth=\dimen197
+\caption@tempdima=\dimen198
+
+! LaTeX Error: Command \setcaptionmargin already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.448   \caption@setmargin}
+                           
+? 
+
+! LaTeX Error: Command \setcaptionwidth already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.460   \caption@setwidth}
+                          
+? 
+\caption@indent=\dimen199
+\caption@parindent=\dimen256
+\caption@hangindent=\dimen257
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \captionlinewidth \hsize \def \captionlabel {#1}\def \captiontext {#2}\usecap
+tionstyle {\caption@style }\vskip \belowcaptionskip .
+
+! Package caption Error: You can't use both, the (obsolete) caption2 *and*
+(caption)                the (current) caption package.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 }{}
+        
+? 
+)
+\c@KVtest=\count134
+\sf@farskip=\skip53
+\sf@captopadj=\dimen258
+\sf@capskip=\skip54
+\sf@nearskip=\skip55
+\c@subfigure=\count135
+\c@subfigure@save=\count136
+\c@lofdepth=\count137
+\c@subtable=\count138
+\c@subtable@save=\count139
+\c@lotdepth=\count140
+\sf@top=\skip56
+\sf@bottom=\skip57
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 36.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 37.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
-\scratchdimen=\dimen195
+\scratchcounter=\count141
+\scratchdimen=\dimen259
 \scratchbox=\box43
-\nofMPsegments=\count135
-\nofMParguments=\count136
+\nofMPsegments=\count142
+\nofMParguments=\count143
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count137
-\MPscratchDim=\dimen196
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
+\MPscratchCnt=\count144
+\MPscratchDim=\dimen260
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
 \everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -693,162 +779,405 @@ ABD: EveryShipout initializing macros
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 36.
+loading the todonotes package. on input line 37.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 38.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 38.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 39.
 ! Undefined control sequence.
 \@maketitle ...r}[t]{c}\inst {\instnum }\@address 
                                                   \end {tabular}\par } \vglu...
-l.38 \maketitle
+l.39 \maketitle
                
 ? 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
 ! Undefined control sequence.
-l.43 lambda  x: 2x^{3} + 5x^{2} + \sen
+l.44 lambda  x: 2x^{3} + 5x^{2} + \sen
                                        x - 30\\
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 
+l.45 
      
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44 
+l.45 
      
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44 
+l.45 
      
 ? 
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.44 
+l.45 
      
 ? 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.44 
+l.45 
      
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 
+l.45 
      
 ? 
 ! Missing $$ inserted.
 <to be read again> 
                    \par 
-l.44 
+l.45 
      
 ? 
 ! Misplaced alignment tab character &.
 \reserved@a ->&
                 & &
-l.45 \end{eqnarray}
+l.46 \end{eqnarray}
                    
 ? 
 ! Misplaced alignment tab character &.
 \reserved@a ->& &
                   &
-l.45 \end{eqnarray}
+l.46 \end{eqnarray}
                    
 ? 
 ! Misplaced alignment tab character &.
 \reserved@a ->& & &
                    
-l.45 \end{eqnarray}
+l.46 \end{eqnarray}
                    
 ? 
 ! Misplaced \cr.
 \@@eqncr ...l \@eqnswtrue \global \@eqcnt \z@ \cr 
                                                   
-l.45 \end{eqnarray}
+l.46 \end{eqnarray}
                    
 ? 
 ! Extra }, or forgotten \endgroup.
 \endeqnarray ->\@@eqncr \egroup 
                                 \global \advance \c@equation \m@ne $$\@ignor...
-l.45 \end{eqnarray}
+l.46 \end{eqnarray}
                    
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.45 \end{eqnarray}
+l.46 \end{eqnarray}
                    
 ? 
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.45 \end{eqnarray}
+l.46 \end{eqnarray}
                    
 ? 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 51.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
-[2] [3] (./main.aux) ) 
+[2]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 198.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 209.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 220.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 231.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 242.
+
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
+ection_f1.png, id=43, 395.4775pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/bisection_f1.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/bisection_f1.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/bisection_f1.png  used on input line 262.
+(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
+se_position_f1.png, id=45, 395.4775pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/false_position_f1.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/false_position_f1.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/false_position_f1.png  used on input line 263.
+(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
+ant_f1.png, id=46, 395.4775pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/secant_f1.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/secant_f1.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/secant_f1.png  used on input line 264.
+(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
+gent_f1.png, id=47, 395.4775pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/tangent_f1.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/tangent_f1.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/tangent_f1.png  used on input line 265.
+(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
+ection_f2.png, id=48, 395.4775pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/bisection_f2.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/bisection_f2.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/bisection_f2.png  used on input line 271.
+(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
+se_position_f2.png, id=49, 395.4775pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/false_position_f2.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/false_position_f2.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/false_position_f2.png  used on input line 272.
+(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
+ant_f2.png, id=50, 393.47pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/secant_f2.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/secant_f2.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/secant_f2.png  used on input line 273.
+(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
+gent_f2.png, id=51, 395.4775pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/tangent_f2.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/tangent_f2.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/tangent_f2.png  used on input line 274.
+(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
+ection_f3.png, id=52, 395.4775pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/bisection_f3.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/bisection_f3.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/bisection_f3.png  used on input line 280.
+(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
+se_position_f3.png, id=53, 391.4625pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/false_position_f3.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/false_position_f3.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/false_position_f3.png  used on input line 281.
+(pdftex.def)             Requested size: 195.73076pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
+ant_f3.png, id=54, 405.515pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/secant_f3.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/secant_f3.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/secant_f3.png  used on input line 282.
+(pdftex.def)             Requested size: 202.75699pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
+gent_f3.png, id=55, 390.45876pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/tangent_f3.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/tangent_f3.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/tangent_f3.png  used on input line 283.
+(pdftex.def)             Requested size: 195.2289pt x 139.5209pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
+ection_f4.png, id=56, 393.47pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/bisection_f4.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/bisection_f4.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/bisection_f4.png  used on input line 289.
+(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
+se_position_f4.png, id=57, 393.47pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/false_position_f4.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/false_position_f4.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/false_position_f4.png  used on input line 290.
+(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
+ant_f4.png, id=58, 393.47pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/secant_f4.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/secant_f4.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/secant_f4.png  used on input line 291.
+(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
+gent_f4.png, id=59, 393.47pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/tangent_f4.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/tangent_f4.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/tangent_f4.png  used on input line 292.
+(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
+ection_f5.png, id=60, 393.47pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/bisection_f5.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/bisection_f5.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/bisection_f5.png  used on input line 298.
+(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
+se_position_f5.png, id=61, 381.425pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/false_position_f5.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/false_position_f5.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/false_position_f5.png  used on input line 299.
+(pdftex.def)             Requested size: 190.71202pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
+ant_f5.png, id=62, 387.4475pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/secant_f5.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/secant_f5.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/secant_f5.png  used on input line 300.
+(pdftex.def)             Requested size: 193.72327pt x 139.5209pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
+gent_f5.png, id=63, 389.455pt x 279.0425pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/tangent_f5.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
+/tangent_f5.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/tangent_f5.png  used on input line 301.
+(pdftex.def)             Requested size: 194.72702pt x 139.5209pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3] [4 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafi
+cos/bisection_f1.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/t
+rabalho_1/graficos/false_position_f1.png> </home/souza/Documents/semestre_2019-
+2/calculo_numerico/trabalho_1/graficos/secant_f1.png> </home/souza/Documents/se
+mestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f1.png>] [5 </home/s
+ouza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f
+2.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafi
+cos/false_position_f2.png> </home/souza/Documents/semestre_2019-2/calculo_numer
+ico/trabalho_1/graficos/secant_f2.png> </home/souza/Documents/semestre_2019-2/c
+alculo_numerico/trabalho_1/graficos/tangent_f2.png> </home/souza/Documents/seme
+stre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f3.png> </home/souza
+/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_
+f3.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graf
+icos/secant_f3.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/tra
+balho_1/graficos/tangent_f3.png>] [6 </home/souza/Documents/semestre_2019-2/cal
+culo_numerico/trabalho_1/graficos/bisection_f4.png> </home/souza/Documents/seme
+stre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f4.png> </home/
+souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f4.
+png> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
+s/tangent_f4.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/traba
+lho_1/graficos/bisection_f5.png> </home/souza/Documents/semestre_2019-2/calculo
+_numerico/trabalho_1/graficos/false_position_f5.png> </home/souza/Documents/sem
+estre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f5.png> </home/souza/D
+ocuments/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f5.png>]
+(./main.aux) ) 
 Here is how much of TeX's memory you used:
- 15460 strings out of 494427
- 295560 string characters out of 6174076
- 352093 words of memory out of 5000000
- 18791 multiletter control sequences out of 15000+600000
+ 16330 strings out of 494427
+ 317694 string characters out of 6174076
+ 372870 words of memory out of 5000000
+ 19629 multiletter control sequences out of 15000+600000
  25081 words of font info for 39 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
- 62i,8n,81p,439b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
-c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on main.pdf (3 pages, 71118 bytes).
+ 62i,9n,96p,439b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on main.pdf (6 pages, 288034 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
