@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.5)  6 SEP 2019 00:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.8.20)  6 SEP 2019 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,26 +545,6 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks35
 \inpenc@posthook=\toks36
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/11/13 3.27 The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/11/13 3.27 Babel switching mechanism
-)
-Package babel Info: You haven't specified a language. I'll use 'nil'
-(babel)             as the main language. Reported on input line 499.
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf
-Language: nil 2018/11/13 3.27 Nil language
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count132
-\U@D=\dimen194
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count133
-)))
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
@@ -596,10 +576,10 @@ Type  H <return>  for immediate help.
 l.220   section about errors.\MessageBreak\@ehc}
                                                 
 ? 
-\captionmargin=\dimen195
-\captionmargin@=\dimen196
-\captionwidth=\dimen197
-\caption@tempdima=\dimen198
+\captionmargin=\dimen194
+\captionmargin@=\dimen195
+\captionwidth=\dimen196
+\caption@tempdima=\dimen197
 
 ! LaTeX Error: Command \setcaptionmargin already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -622,9 +602,9 @@ Type  H <return>  for immediate help.
 l.460   \caption@setwidth}
                           
 ? 
-\caption@indent=\dimen199
-\caption@parindent=\dimen256
-\caption@hangindent=\dimen257
+\caption@indent=\dimen198
+\caption@parindent=\dimen199
+\caption@hangindent=\dimen256
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -648,17 +628,17 @@ l.53 }{}
         
 ? 
 )
-\c@KVtest=\count134
+\c@KVtest=\count132
 \sf@farskip=\skip53
-\sf@captopadj=\dimen258
+\sf@captopadj=\dimen257
 \sf@capskip=\skip54
 \sf@nearskip=\skip55
-\c@subfigure=\count135
-\c@subfigure@save=\count136
-\c@lofdepth=\count137
-\c@subtable=\count138
-\c@subtable@save=\count139
-\c@lotdepth=\count140
+\c@subfigure=\count133
+\c@subfigure@save=\count134
+\c@lofdepth=\count135
+\c@subtable=\count136
+\c@subtable@save=\count137
+\c@lotdepth=\count138
 \sf@top=\skip56
 \sf@bottom=\skip57
 ) (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty
@@ -667,23 +647,23 @@ Package: expl3 2019-02-15 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2019-02-15 L3 programming layer (code)
-\c_max_int=\count141
-\l_tmpa_int=\count142
-\l_tmpb_int=\count143
-\g_tmpa_int=\count144
-\g_tmpb_int=\count145
-\g__kernel_prg_map_int=\count146
-\c_log_iow=\count147
-\l_iow_line_count_int=\count148
-\l__iow_line_target_int=\count149
-\l__iow_one_indent_int=\count150
-\l__iow_indent_int=\count151
-\c_zero_dim=\dimen259
-\c_max_dim=\dimen260
-\l_tmpa_dim=\dimen261
-\l_tmpb_dim=\dimen262
-\g_tmpa_dim=\dimen263
-\g_tmpb_dim=\dimen264
+\c_max_int=\count139
+\l_tmpa_int=\count140
+\l_tmpb_int=\count141
+\g_tmpa_int=\count142
+\g_tmpb_int=\count143
+\g__kernel_prg_map_int=\count144
+\c_log_iow=\count145
+\l_iow_line_count_int=\count146
+\l__iow_line_target_int=\count147
+\l__iow_one_indent_int=\count148
+\l__iow_indent_int=\count149
+\c_zero_dim=\dimen258
+\c_max_dim=\dimen259
+\l_tmpa_dim=\dimen260
+\l_tmpb_dim=\dimen261
+\g_tmpa_dim=\dimen262
+\g_tmpb_dim=\dimen263
 \c_zero_skip=\skip58
 \c_max_skip=\skip59
 \l_tmpa_skip=\skip60
@@ -696,100 +676,100 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count152
-\l__intarray_loop_int=\count153
-\c__intarray_sp_dim=\dimen265
-\g__intarray_font_int=\count154
-\c__fp_leading_shift_int=\count155
-\c__fp_middle_shift_int=\count156
-\c__fp_trailing_shift_int=\count157
-\c__fp_big_leading_shift_int=\count158
-\c__fp_big_middle_shift_int=\count159
-\c__fp_big_trailing_shift_int=\count160
-\c__fp_Bigg_leading_shift_int=\count161
-\c__fp_Bigg_middle_shift_int=\count162
-\c__fp_Bigg_trailing_shift_int=\count163
-\c__kernel_randint_max_int=\count164
-\g__fp_array_int=\count165
-\l__fp_array_loop_int=\count166
-\l__sort_length_int=\count167
-\l__sort_min_int=\count168
-\l__sort_top_int=\count169
-\l__sort_max_int=\count170
-\l__sort_true_max_int=\count171
-\l__sort_block_int=\count172
-\l__sort_begin_int=\count173
-\l__sort_end_int=\count174
-\l__sort_A_int=\count175
-\l__sort_B_int=\count176
-\l__sort_C_int=\count177
-\l__tl_analysis_normal_int=\count178
-\l__tl_analysis_index_int=\count179
-\l__tl_analysis_nesting_int=\count180
-\l__tl_analysis_type_int=\count181
-\l__regex_internal_a_int=\count182
-\l__regex_internal_b_int=\count183
-\l__regex_internal_c_int=\count184
-\l__regex_balance_int=\count185
-\l__regex_group_level_int=\count186
-\l__regex_mode_int=\count187
-\c__regex_cs_in_class_mode_int=\count188
-\c__regex_cs_mode_int=\count189
-\l__regex_catcodes_int=\count190
-\l__regex_default_catcodes_int=\count191
-\c__regex_catcode_D_int=\count192
-\c__regex_catcode_S_int=\count193
-\c__regex_catcode_L_int=\count194
-\c__regex_catcode_O_int=\count195
-\c__regex_catcode_A_int=\count196
-\c__regex_all_catcodes_int=\count197
-\l__regex_show_lines_int=\count198
-\l__regex_min_state_int=\count199
-\l__regex_max_state_int=\count266
-\l__regex_left_state_int=\count267
-\l__regex_right_state_int=\count268
-\l__regex_capturing_group_int=\count269
-\l__regex_min_pos_int=\count270
-\l__regex_max_pos_int=\count271
-\l__regex_curr_pos_int=\count272
-\l__regex_start_pos_int=\count273
-\l__regex_success_pos_int=\count274
-\l__regex_curr_char_int=\count275
-\l__regex_curr_catcode_int=\count276
-\l__regex_last_char_int=\count277
-\l__regex_case_changed_char_int=\count278
-\l__regex_curr_state_int=\count279
-\l__regex_step_int=\count280
-\l__regex_min_active_int=\count281
-\l__regex_max_active_int=\count282
-\l__regex_replacement_csnames_int=\count283
-\l__regex_match_count_int=\count284
-\l__regex_min_submatch_int=\count285
-\l__regex_submatch_int=\count286
-\l__regex_zeroth_submatch_int=\count287
-\g__regex_trace_regex_int=\count288
+\l_keys_choice_int=\count150
+\l__intarray_loop_int=\count151
+\c__intarray_sp_dim=\dimen264
+\g__intarray_font_int=\count152
+\c__fp_leading_shift_int=\count153
+\c__fp_middle_shift_int=\count154
+\c__fp_trailing_shift_int=\count155
+\c__fp_big_leading_shift_int=\count156
+\c__fp_big_middle_shift_int=\count157
+\c__fp_big_trailing_shift_int=\count158
+\c__fp_Bigg_leading_shift_int=\count159
+\c__fp_Bigg_middle_shift_int=\count160
+\c__fp_Bigg_trailing_shift_int=\count161
+\c__kernel_randint_max_int=\count162
+\g__fp_array_int=\count163
+\l__fp_array_loop_int=\count164
+\l__sort_length_int=\count165
+\l__sort_min_int=\count166
+\l__sort_top_int=\count167
+\l__sort_max_int=\count168
+\l__sort_true_max_int=\count169
+\l__sort_block_int=\count170
+\l__sort_begin_int=\count171
+\l__sort_end_int=\count172
+\l__sort_A_int=\count173
+\l__sort_B_int=\count174
+\l__sort_C_int=\count175
+\l__tl_analysis_normal_int=\count176
+\l__tl_analysis_index_int=\count177
+\l__tl_analysis_nesting_int=\count178
+\l__tl_analysis_type_int=\count179
+\l__regex_internal_a_int=\count180
+\l__regex_internal_b_int=\count181
+\l__regex_internal_c_int=\count182
+\l__regex_balance_int=\count183
+\l__regex_group_level_int=\count184
+\l__regex_mode_int=\count185
+\c__regex_cs_in_class_mode_int=\count186
+\c__regex_cs_mode_int=\count187
+\l__regex_catcodes_int=\count188
+\l__regex_default_catcodes_int=\count189
+\c__regex_catcode_D_int=\count190
+\c__regex_catcode_S_int=\count191
+\c__regex_catcode_L_int=\count192
+\c__regex_catcode_O_int=\count193
+\c__regex_catcode_A_int=\count194
+\c__regex_all_catcodes_int=\count195
+\l__regex_show_lines_int=\count196
+\l__regex_min_state_int=\count197
+\l__regex_max_state_int=\count198
+\l__regex_left_state_int=\count199
+\l__regex_right_state_int=\count266
+\l__regex_capturing_group_int=\count267
+\l__regex_min_pos_int=\count268
+\l__regex_max_pos_int=\count269
+\l__regex_curr_pos_int=\count270
+\l__regex_start_pos_int=\count271
+\l__regex_success_pos_int=\count272
+\l__regex_curr_char_int=\count273
+\l__regex_curr_catcode_int=\count274
+\l__regex_last_char_int=\count275
+\l__regex_case_changed_char_int=\count276
+\l__regex_curr_state_int=\count277
+\l__regex_step_int=\count278
+\l__regex_min_active_int=\count279
+\l__regex_max_active_int=\count280
+\l__regex_replacement_csnames_int=\count281
+\l__regex_match_count_int=\count282
+\l__regex_min_submatch_int=\count283
+\l__regex_submatch_int=\count284
+\l__regex_zeroth_submatch_int=\count285
+\g__regex_trace_regex_int=\count286
 \c_empty_box=\box43
 \l_tmpa_box=\box44
 \l_tmpb_box=\box45
 \g_tmpa_box=\box46
 \g_tmpb_box=\box47
-\l__box_top_dim=\dimen266
-\l__box_bottom_dim=\dimen267
-\l__box_left_dim=\dimen268
-\l__box_right_dim=\dimen269
-\l__box_top_new_dim=\dimen270
-\l__box_bottom_new_dim=\dimen271
-\l__box_left_new_dim=\dimen272
-\l__box_right_new_dim=\dimen273
+\l__box_top_dim=\dimen265
+\l__box_bottom_dim=\dimen266
+\l__box_left_dim=\dimen267
+\l__box_right_dim=\dimen268
+\l__box_top_new_dim=\dimen269
+\l__box_bottom_new_dim=\dimen270
+\l__box_left_new_dim=\dimen271
+\l__box_right_new_dim=\dimen272
 \l__box_internal_box=\box48
 \l__coffin_internal_box=\box49
-\l__coffin_internal_dim=\dimen274
-\l__coffin_offset_x_dim=\dimen275
-\l__coffin_offset_y_dim=\dimen276
-\l__coffin_x_dim=\dimen277
-\l__coffin_y_dim=\dimen278
-\l__coffin_x_prime_dim=\dimen279
-\l__coffin_y_prime_dim=\dimen280
+\l__coffin_internal_dim=\dimen273
+\l__coffin_offset_x_dim=\dimen274
+\l__coffin_offset_y_dim=\dimen275
+\l__coffin_x_dim=\dimen276
+\l__coffin_y_dim=\dimen277
+\l__coffin_x_prime_dim=\dimen278
+\l__coffin_y_prime_dim=\dimen279
 \c_empty_coffin=\box50
 \l__coffin_aligned_coffin=\box51
 \l__coffin_aligned_internal_coffin=\box52
@@ -801,23 +781,23 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l__coffin_display_coffin=\box58
 \l__coffin_display_coord_coffin=\box59
 \l__coffin_display_pole_coffin=\box60
-\l__coffin_display_offset_dim=\dimen281
-\l__coffin_display_x_dim=\dimen282
-\l__coffin_display_y_dim=\dimen283
+\l__coffin_display_offset_dim=\dimen280
+\l__coffin_display_x_dim=\dimen281
+\l__coffin_display_y_dim=\dimen282
 \g__file_internal_ior=\read2
-\l__coffin_bounding_shift_dim=\dimen284
-\l__coffin_left_corner_dim=\dimen285
-\l__coffin_right_corner_dim=\dimen286
-\l__coffin_bottom_corner_dim=\dimen287
-\l__coffin_top_corner_dim=\dimen288
-\l__coffin_scaled_total_height_dim=\dimen289
-\l__coffin_scaled_width_dim=\dimen290
-\l__seq_internal_a_int=\count289
-\l__seq_internal_b_int=\count290
+\l__coffin_bounding_shift_dim=\dimen283
+\l__coffin_left_corner_dim=\dimen284
+\l__coffin_right_corner_dim=\dimen285
+\l__coffin_bottom_corner_dim=\dimen286
+\l__coffin_top_corner_dim=\dimen287
+\l__coffin_scaled_total_height_dim=\dimen288
+\l__coffin_scaled_width_dim=\dimen289
+\l__seq_internal_a_int=\count287
+\l__seq_internal_b_int=\count288
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2019-02-15 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count291
+\l__driver_color_stack_int=\count289
 ))
 Package: unicode-math 2019/02/15 v0.8n Unicode maths in XeLaTeX and LuaLaTeX
 
@@ -837,22 +817,42 @@ Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/11/13 3.27 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count290
+\U@D=\dimen290
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count291
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
 )) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -956,73 +956,63 @@ ABD: EveryShipout initializing macros
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 48.
+loading the todonotes package. on input line 41.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 43.
 ! Undefined control sequence.
 \@maketitle ...r}[t]{c}\inst {\instnum }\@address 
                                                   \end {tabular}\par } \vglu...
-l.50 \maketitle
+l.43 \maketitle
                
 ? 
-
-! Package babel Error: You haven't defined the language brazil yet.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 \br
-        
-? 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 45.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.54 $
+l.47 $
       \lambda x: 5x^{3} - 2x^{2} + 8x - 10$\\
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.54 $\lambda
+l.47 $\lambda
               x: 5x^{3} - 2x^{2} + 8x - 10$\\
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.55 $
+l.48 $
       \lambda x: 2x^{3} + 5x^{2} + \sin x - 30$\\
 ? 
-! Incomplete \ifcase; all text was ignored after line 55.
+! Incomplete \ifcase; all text was ignored after line 48.
 <inserted text> 
                 \fi 
-l.55 $
+l.48 $
       \lambda x: 2x^{3} + 5x^{2} + \sin x - 30$\\
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.55 $
+l.48 $
       \lambda x: 2x^{3} + 5x^{2} + \sin x - 30$\\
 ? 
 ! Extra \or.
 \@@eqncr ... {& & &}\or \def \reserved@a {& &}\or 
                                                   \def \reserved@a {&}\else ...
-l.55 $
+l.48 $
       \lambda x: 2x^{3} + 5x^{2} + \sin x - 30$\\
 ? 
 ! Extra \else.
 \@@eqncr ...@a {& &}\or \def \reserved@a {&}\else 
                                                   \let \reserved@a \@empty \...
-l.55 $
+l.48 $
       \lambda x: 2x^{3} + 5x^{2} + \sin x - 30$\\
 ? 
 
@@ -1032,61 +1022,61 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 $
+l.48 $
       \lambda x: 2x^{3} + 5x^{2} + \sin x - 30$\\
 ? 
 ! Extra \fi.
 \@@eqncr ...mns in eqnarray environment}\@ehc \fi 
                                                   \reserved@a \if@eqnsw \@eq...
-l.55 $
+l.48 $
       \lambda x: 2x^{3} + 5x^{2} + \sin x - 30$\\
 ? 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.55 $
+l.48 $
       \lambda x: 2x^{3} + 5x^{2} + \sin x - 30$\\
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.55 $
+l.48 $
       \lambda x: 2x^{3} + 5x^{2} + \sin x - 30$\\
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.55 $\lambda
+l.48 $\lambda
               x: 2x^{3} + 5x^{2} + \sin x - 30$\\
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.56 $
+l.49 $
       \lambda x: e^{-x2}\cos x$\\
 ? 
-! Incomplete \ifcase; all text was ignored after line 56.
+! Incomplete \ifcase; all text was ignored after line 49.
 <inserted text> 
                 \fi 
-l.56 $
+l.49 $
       \lambda x: e^{-x2}\cos x$\\
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.56 $
+l.49 $
       \lambda x: e^{-x2}\cos x$\\
 ? 
 ! Extra \or.
 \@@eqncr ... {& & &}\or \def \reserved@a {& &}\or 
                                                   \def \reserved@a {&}\else ...
-l.56 $
+l.49 $
       \lambda x: e^{-x2}\cos x$\\
 ? 
 ! Extra \else.
 \@@eqncr ...@a {& &}\or \def \reserved@a {&}\else 
                                                   \let \reserved@a \@empty \...
-l.56 $
+l.49 $
       \lambda x: e^{-x2}\cos x$\\
 ? 
 
@@ -1096,61 +1086,61 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 $
+l.49 $
       \lambda x: e^{-x2}\cos x$\\
 ? 
 ! Extra \fi.
 \@@eqncr ...mns in eqnarray environment}\@ehc \fi 
                                                   \reserved@a \if@eqnsw \@eq...
-l.56 $
+l.49 $
       \lambda x: e^{-x2}\cos x$\\
 ? 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.56 $
+l.49 $
       \lambda x: e^{-x2}\cos x$\\
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.56 $
+l.49 $
       \lambda x: e^{-x2}\cos x$\\
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.56 $\lambda
+l.49 $\lambda
               x: e^{-x2}\cos x$\\
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.57     $
+l.50     $
           \lambda x: (x+1)(x-1)(x-3)^{5}\\
 ? 
-! Incomplete \ifcase; all text was ignored after line 57.
+! Incomplete \ifcase; all text was ignored after line 50.
 <inserted text> 
                 \fi 
-l.57     $
+l.50     $
           \lambda x: (x+1)(x-1)(x-3)^{5}\\
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.57     $
+l.50     $
           \lambda x: (x+1)(x-1)(x-3)^{5}\\
 ? 
 ! Extra \or.
 \@@eqncr ... {& & &}\or \def \reserved@a {& &}\or 
                                                   \def \reserved@a {&}\else ...
-l.57     $
+l.50     $
           \lambda x: (x+1)(x-1)(x-3)^{5}\\
 ? 
 ! Extra \else.
 \@@eqncr ...@a {& &}\or \def \reserved@a {&}\else 
                                                   \let \reserved@a \@empty \...
-l.57     $
+l.50     $
           \lambda x: (x+1)(x-1)(x-3)^{5}\\
 ? 
 
@@ -1160,55 +1150,55 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57     $
+l.50     $
           \lambda x: (x+1)(x-1)(x-3)^{5}\\
 ? 
 ! Extra \fi.
 \@@eqncr ...mns in eqnarray environment}\@ehc \fi 
                                                   \reserved@a \if@eqnsw \@eq...
-l.57     $
+l.50     $
           \lambda x: (x+1)(x-1)(x-3)^{5}\\
 ? 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.57     $
+l.50     $
           \lambda x: (x+1)(x-1)(x-3)^{5}\\
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.57     $
+l.50     $
           \lambda x: (x+1)(x-1)(x-3)^{5}\\
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.57     $\lambda
+l.50     $\lambda
                   x: (x+1)(x-1)(x-3)^{5}\\
 ? 
-! Incomplete \ifcase; all text was ignored after line 58.
+! Incomplete \ifcase; all text was ignored after line 51.
 <inserted text> 
                 \fi 
-l.58     $
+l.51     $
           \lambda x: (x+2)^{3}\sqrt{x^{2}+1}$
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.58     $
+l.51     $
           \lambda x: (x+2)^{3}\sqrt{x^{2}+1}$
 ? 
 ! Extra \or.
 \@@eqncr ... {& & &}\or \def \reserved@a {& &}\or 
                                                   \def \reserved@a {&}\else ...
-l.58     $
+l.51     $
           \lambda x: (x+2)^{3}\sqrt{x^{2}+1}$
 ? 
 ! Extra \else.
 \@@eqncr ...@a {& &}\or \def \reserved@a {&}\else 
                                                   \let \reserved@a \@empty \...
-l.58     $
+l.51     $
           \lambda x: (x+2)^{3}\sqrt{x^{2}+1}$
 ? 
 
@@ -1218,61 +1208,61 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58     $
+l.51     $
           \lambda x: (x+2)^{3}\sqrt{x^{2}+1}$
 ? 
 ! Extra \fi.
 \@@eqncr ...mns in eqnarray environment}\@ehc \fi 
                                                   \reserved@a \if@eqnsw \@eq...
-l.58     $
+l.51     $
           \lambda x: (x+2)^{3}\sqrt{x^{2}+1}$
 ? 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.58     $
+l.51     $
           \lambda x: (x+2)^{3}\sqrt{x^{2}+1}$
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.58     $
+l.51     $
           \lambda x: (x+2)^{3}\sqrt{x^{2}+1}$
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.58     $\lambda
+l.51     $\lambda
                   x: (x+2)^{3}\sqrt{x^{2}+1}$
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.59 \end{eqnarray}
+l.52 \end{eqnarray}
                    
 ? 
-! Incomplete \ifcase; all text was ignored after line 59.
+! Incomplete \ifcase; all text was ignored after line 52.
 <inserted text> 
                 \fi 
-l.59 \end{eqnarray}
+l.52 \end{eqnarray}
                    
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.59 \end{eqnarray}
+l.52 \end{eqnarray}
                    
 ? 
 ! Extra \or.
 \@@eqncr ... {& & &}\or \def \reserved@a {& &}\or 
                                                   \def \reserved@a {&}\else ...
-l.59 \end{eqnarray}
+l.52 \end{eqnarray}
                    
 ? 
 ! Extra \else.
 \@@eqncr ...@a {& &}\or \def \reserved@a {&}\else 
                                                   \let \reserved@a \@empty \...
-l.59 \end{eqnarray}
+l.52 \end{eqnarray}
                    
 ? 
 
@@ -1282,19 +1272,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \end{eqnarray}
+l.52 \end{eqnarray}
                    
 ? 
 ! Extra \fi.
 \@@eqncr ...mns in eqnarray environment}\@ehc \fi 
                                                   \reserved@a \if@eqnsw \@eq...
-l.59 \end{eqnarray}
+l.52 \end{eqnarray}
                    
 ? 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.59 \end{eqnarray}
+l.52 \end{eqnarray}
                    
 ? 
 
@@ -1314,7 +1304,7 @@ s/bisection_f1.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /bisection_f1.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/bisection_f1.png  used on input line 161.
+/trabalho_1/graficos/bisection_f1.png  used on input line 159.
 (pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
 se_position_f1.png, id=46, 395.4775pt x 279.0425pt>
@@ -1323,7 +1313,7 @@ s/false_position_f1.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /false_position_f1.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/false_position_f1.png  used on input line 162.
+/trabalho_1/graficos/false_position_f1.png  used on input line 160.
 (pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
 ant_f1.png, id=47, 395.4775pt x 279.0425pt>
@@ -1332,7 +1322,7 @@ s/secant_f1.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /secant_f1.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/secant_f1.png  used on input line 163.
+/trabalho_1/graficos/secant_f1.png  used on input line 161.
 (pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
 gent_f1.png, id=48, 395.4775pt x 279.0425pt>
@@ -1341,7 +1331,7 @@ s/tangent_f1.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /tangent_f1.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f1.png  used on input line 164.
+/trabalho_1/graficos/tangent_f1.png  used on input line 162.
 (pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
 ection_f2.png, id=49, 395.4775pt x 279.0425pt>
@@ -1350,7 +1340,7 @@ s/bisection_f2.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /bisection_f2.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/bisection_f2.png  used on input line 170.
+/trabalho_1/graficos/bisection_f2.png  used on input line 168.
 (pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
 se_position_f2.png, id=50, 395.4775pt x 279.0425pt>
@@ -1359,7 +1349,7 @@ s/false_position_f2.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /false_position_f2.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/false_position_f2.png  used on input line 171.
+/trabalho_1/graficos/false_position_f2.png  used on input line 169.
 (pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
 ant_f2.png, id=51, 393.47pt x 279.0425pt>
@@ -1368,7 +1358,7 @@ s/secant_f2.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /secant_f2.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/secant_f2.png  used on input line 172.
+/trabalho_1/graficos/secant_f2.png  used on input line 170.
 (pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
 gent_f2.png, id=52, 395.4775pt x 279.0425pt>
@@ -1377,12 +1367,8 @@ s/tangent_f2.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /tangent_f2.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f2.png  used on input line 173.
+/trabalho_1/graficos/tangent_f2.png  used on input line 171.
 (pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
 ection_f3.png, id=53, 395.4775pt x 279.0425pt>
 File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
@@ -1390,7 +1376,7 @@ s/bisection_f3.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /bisection_f3.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/bisection_f3.png  used on input line 179.
+/trabalho_1/graficos/bisection_f3.png  used on input line 177.
 (pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
 se_position_f3.png, id=54, 391.4625pt x 279.0425pt>
@@ -1399,7 +1385,7 @@ s/false_position_f3.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /false_position_f3.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/false_position_f3.png  used on input line 180.
+/trabalho_1/graficos/false_position_f3.png  used on input line 178.
 (pdftex.def)             Requested size: 195.73076pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
 ant_f3.png, id=55, 405.515pt x 279.0425pt>
@@ -1408,7 +1394,7 @@ s/secant_f3.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /secant_f3.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/secant_f3.png  used on input line 181.
+/trabalho_1/graficos/secant_f3.png  used on input line 179.
 (pdftex.def)             Requested size: 202.75699pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
 gent_f3.png, id=56, 395.4775pt x 279.0425pt>
@@ -1417,11 +1403,8 @@ s/tangent_f3.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /tangent_f3.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f3.png  used on input line 182.
+/trabalho_1/graficos/tangent_f3.png  used on input line 180.
 (pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
 ection_f4.png, id=57, 393.47pt x 279.0425pt>
 File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
@@ -1429,7 +1412,7 @@ s/bisection_f4.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /bisection_f4.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/bisection_f4.png  used on input line 188.
+/trabalho_1/graficos/bisection_f4.png  used on input line 186.
 (pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
 se_position_f4.png, id=58, 393.47pt x 279.0425pt>
@@ -1438,7 +1421,7 @@ s/false_position_f4.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /false_position_f4.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/false_position_f4.png  used on input line 189.
+/trabalho_1/graficos/false_position_f4.png  used on input line 187.
 (pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
 ant_f4.png, id=59, 393.47pt x 279.0425pt>
@@ -1447,7 +1430,7 @@ s/secant_f4.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /secant_f4.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/secant_f4.png  used on input line 190.
+/trabalho_1/graficos/secant_f4.png  used on input line 188.
 (pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
 gent_f4.png, id=60, 393.47pt x 279.0425pt>
@@ -1456,11 +1439,8 @@ s/tangent_f4.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /tangent_f4.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f4.png  used on input line 191.
+/trabalho_1/graficos/tangent_f4.png  used on input line 189.
 (pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
 ection_f5.png, id=61, 393.47pt x 279.0425pt>
 File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
@@ -1468,7 +1448,7 @@ s/bisection_f5.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /bisection_f5.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/bisection_f5.png  used on input line 197.
+/trabalho_1/graficos/bisection_f5.png  used on input line 195.
 (pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
 se_position_f5.png, id=62, 381.425pt x 279.0425pt>
@@ -1477,7 +1457,7 @@ s/false_position_f5.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /false_position_f5.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/false_position_f5.png  used on input line 198.
+/trabalho_1/graficos/false_position_f5.png  used on input line 196.
 (pdftex.def)             Requested size: 190.71202pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
 ant_f5.png, id=63, 387.4475pt x 279.0425pt>
@@ -1486,7 +1466,7 @@ s/secant_f5.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /secant_f5.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/secant_f5.png  used on input line 199.
+/trabalho_1/graficos/secant_f5.png  used on input line 197.
 (pdftex.def)             Requested size: 193.72327pt x 139.5209pt.
 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
 gent_f5.png, id=64, 389.455pt x 279.0425pt>
@@ -1495,57 +1475,54 @@ s/tangent_f5.png Graphic file (type png)
 <use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
 /tangent_f5.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f5.png  used on input line 200.
+/trabalho_1/graficos/tangent_f5.png  used on input line 198.
 (pdftex.def)             Requested size: 194.72702pt x 139.5209pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/
-bisection_f1.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/traba
-lho_1/graficos/false_position_f1.png> </home/souza/Documents/semestre_2019-2/ca
-lculo_numerico/trabalho_1/graficos/secant_f1.png> </home/souza/Documents/semest
-re_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f1.png>] [4 </home/souza
-/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f2.pn
-g> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/
-false_position_f2.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/
-trabalho_1/graficos/secant_f2.png> </home/souza/Documents/semestre_2019-2/calcu
-lo_numerico/trabalho_1/graficos/tangent_f2.png> </home/souza/Documents/semestre
-_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f3.png> </home/souza/Doc
-uments/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f3.p
+ [3] [4 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graf
+icos/bisection_f1.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/
+trabalho_1/graficos/false_position_f1.png> </home/souza/Documents/semestre_2019
+-2/calculo_numerico/trabalho_1/graficos/secant_f1.png> </home/souza/Documents/s
+emestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f1.png> </home/souz
+a/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f2.p
 ng> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/secant_f3.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalh
-o_1/graficos/tangent_f3.png>] [5 </home/souza/Documents/semestre_2019-2/calculo
-_numerico/trabalho_1/graficos/bisection_f4.png> </home/souza/Documents/semestre
-_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f4.png> </home/souz
-a/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f4.png>
- </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/ta
-ngent_f4.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_
-1/graficos/bisection_f5.png> </home/souza/Documents/semestre_2019-2/calculo_num
-erico/trabalho_1/graficos/false_position_f5.png> </home/souza/Documents/semestr
-e_2019-2/calculo_numerico/trabalho_1/graficos/secant_f5.png> </home/souza/Docum
-ents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f5.png>]
-(./main.aux) ) 
+/false_position_f2.png> </home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_1/graficos/secant_f2.png> </home/souza/Documents/semestre_2019-2/calc
+ulo_numerico/trabalho_1/graficos/tangent_f2.png>] [5 </home/souza/Documents/sem
+estre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f3.png> </home/souz
+a/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position
+_f3.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/gra
+ficos/secant_f3.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/tr
+abalho_1/graficos/tangent_f3.png> </home/souza/Documents/semestre_2019-2/calcul
+o_numerico/trabalho_1/graficos/bisection_f4.png> </home/souza/Documents/semestr
+e_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f4.png> </home/sou
+za/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f4.png
+> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/t
+angent_f4.png>] [6 </home/souza/Documents/semestre_2019-2/calculo_numerico/trab
+alho_1/graficos/bisection_f5.png> </home/souza/Documents/semestre_2019-2/calcul
+o_numerico/trabalho_1/graficos/false_position_f5.png> </home/souza/Documents/se
+mestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f5.png> </home/souza/
+Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f5.png>]
+ (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 25368 strings out of 494541
- 493203 string characters out of 6176674
- 509630 words of memory out of 5000000
- 28636 multiletter control sequences out of 15000+600000
+ 25398 strings out of 494427
+ 493757 string characters out of 6174076
+ 513430 words of memory out of 5000000
+ 28678 multiletter control sequences out of 15000+600000
  550931 words of font info for 47 fonts, out of 8000000 for 9000
- 16 hyphenation exceptions out of 8191
- 62i,10n,96p,641b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
-b>
-Output written on main.pdf (5 pages, 295002 bytes).
+ 83 hyphenation exceptions out of 8191
+ 62i,10n,96p,760b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb>
+Output written on main.pdf (6 pages, 296101 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  209 words of extra memory for PDF output out of 10000 (max. 10000000)
 

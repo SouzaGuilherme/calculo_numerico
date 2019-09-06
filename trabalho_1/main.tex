@@ -20,24 +20,17 @@
 \usepackage{amsmath}
 \usepackage{multirow}
 \usepackage[utf8]{inputenc}  
-\usepackage{babel}
 \usepackage[T1]{fontenc}
 \usepackage{xspace}
 \usepackage{url}
 \usepackage{graphicx}
 \usepackage{subfig}
-%----------
 \usepackage{unicode-math}
-\usepackage{babel}
-\babeltags{br = brazil, en = english}
 \usepackage[T1]{fontenc}
 \usepackage{xspace}
 \usepackage{url}
-%\setmathfont{xits-math.otf}
+\usepackage[brazil]{babel}
 
-%\setmathfont[math-style=upright,range={`e,`i}]{xits-math.otf}
-
-%--------------
 \sloppy
 
 \title{Calculo Numérico\\Trabalho\_1}
@@ -48,7 +41,7 @@
 \begin{document} 
 
 \maketitle
-\br
+%\br
 \section{Funções}
 \begin{eqnarray}
 $\lambda x: 5x^{3} - 2x^{2} + 8x - 10$\\
@@ -97,10 +90,10 @@ Dando continuidade, o mesmo pode-se observar na Tabela 2, que se assemelha a 1. 
 \multicolumn{1}{l|}{\textbf{Tangente}}      & \multicolumn{1}{l|}{1.879782474667825}           & 9
 \end{tabular}
 \end{center}
-    \caption{Raízes aproximadas e número de interações da função dois aplicada aos quatro metodos.}
+    \caption{Raízes aproximadas e número de interações da função dois aplicada aos quatro métodos.}
 \end{table}
 
-De acordo com a Tabela 3, podemos notar uma diferença mais gritante. As raízes semelhantes, elas sofrem alterações a partir da oitava casa decimal e ainda, no método da secante podemos ver uma raíz com valor bem inferior, variando $\pm$ 0.4 quanto aos outros métodos. Quanto a interações, a secante cheggou a concluir em somente 5 iterações, enquanto a tangente levou 500. Com isso podemos ver uma mudança de cenário, os dois primeiros métodos, passaram a fazer menos iterações quando comparado a tangente, porém, a secante ainda realiza menos, mas como efeito, aparentemente possui uma menos precição.
+De acordo com a Tabela 3, podemos notar uma diferença mais gritante. As raízes semelhantes, elas sofrem alterações a partir da oitava casa decimal e ainda, no método da secante podemos ver uma raíz com valor bem inferior, variando $\pm$ 0.4 quanto aos outros métodos. Quanto a interações, a secante chegou a concluir em somente 5 iterações, enquanto a tangente levou 500. Com isso podemos ver uma mudança de cenário, os dois primeiros métodos, passaram a fazer menos iterações quando comparado a tangente, porém, a secante ainda realiza menos, mas como efeito, aparentemente possui uma menos precição.
 \begin{table}[!h]
 \begin{center}
 \begin{tabular}{lll}
@@ -153,10 +146,15 @@ Ao analisar a Tabela 5, podemos ver que as raízes voltaram a ter uma certa "nor
 %    \subfloat[Bisection]{\includegraphics[width=0.4\textwidth]}{/home/souza/Documents/semestre\_2019-2/calculo\_numerico/trabalho\_1/graficos/bisection\_f1.png}\label{fig:f2}
 %    \caption{Função 1}
 %\end{figure}
+
+\section{Considerações}
+
+Considerando a complexidade algoritima, iremos concluir que todos possuem a mesma, dado que o limite de iterações está padronizadas igualitariamente em 500 e, dada a entrada, podemos chegar as 500 ou em quantidades ainda menores, como vista nas execuções aqui apresentadas. Logo a escolha do método, bate mais com a exigencia do problema e o quanto preciso deve ser. Ao meu ver, o método da secante consegue dar resultados precisos e com poucas iterações, logo acho um exelente escolha. O metodo da bisseção, executa em poucas iterações também, porém sua precisão em número de casas decimais sofrem. Os dois métodos restantes acabam por fazer um grande numero de iterações, ainda sim apresetam uma precisão de qualidade. 
+
 \section{Gráficos}
 Nesta seção, será apresentado os gráficos gerados a partir da função aplicada aos métodos aqui apresentados e aprendido em aula. Para uma melhor comparação, os gráficos estão dispostos da mesma forma que as tabelas, cada método com a mesma função de entrada. Desta forma a comparação visual é facilitada.
 
-\begin{figure}[!h]
+\begin{figure}[!htb]
     \centering
     \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f1.png}
     \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f1.png}\\
@@ -165,7 +163,7 @@ Nesta seção, será apresentado os gráficos gerados a partir da função aplic
     \caption{Gráficos da função um executada pelos quatro métodos presentes.}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f2.png}
     \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f2.png}\\
@@ -174,7 +172,7 @@ Nesta seção, será apresentado os gráficos gerados a partir da função aplic
     \caption{Gráficos da função dois executada pelos quatro métodos presentes.}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f3.png}
     \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f3.png}\\
@@ -183,7 +181,7 @@ Nesta seção, será apresentado os gráficos gerados a partir da função aplic
     \caption{Gráficos da função três executada pelos quatro métodos presentes.}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f4.png}
     \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f4.png}\\
@@ -192,7 +190,7 @@ Nesta seção, será apresentado os gráficos gerados a partir da função aplic
     \caption{Gráficos da função quatro executada pelos quatro métodos presentes.}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f5.png}
     \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f5.png}\\
