@@ -33,8 +33,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{xspace}
 \usepackage{url}
+\usepackage{lipsum} 
 %\setmathfont{xits-math.otf}
-
+\usepackage{enumerate}
 %\setmathfont[math-style=upright,range={`e,`i}]{xits-math.otf}
 
 %--------------
@@ -72,6 +73,27 @@ Para execução de tais métodos como, \textbf{Eliminação de Gauss, fatoraçã
 
 
 \section{Eliminação de Gauss}
+
+Nesta seção é apresentado o método de \textit{Eleminição de Gauss}, é uma técnica para simplificar a resolução de sistemas lineares como:
+
+\begin{cases}
+2x-5y+z=1 \\
+3x-y+2z=3 \\
+4x-y-3z=-1
+\end{cases}
+
+O sistema linear acima conta com três icógnitas e, descobrir seus valores pode ser dificil ou em alguns casos impraticavel, mas fazendo uso do método se torna mais simples sua resolução. O método conta com três teoremas: 
+
+\begin{enumerate}[i]
+   \item O sistema de equações não se altera quando permutamos as posições das equações;
+   \item O sistema de equações não se altera quando multiplicamos os membros de uma das equações por qualquer número real não nulo;
+   \item Por inferência, podemos então substituir uma equação por outra obtida a partir da inclusão “membro a membro” desta equação, por outra na qual foi aplicada a transformação do Teorema 2 acima.
+ \end{enumerate}
+
+Para encontrar a resolução apartir do método, tem por objetivo fazer uso dos teoremas para conseguir zerar duas das três icógnitas de uma das linhas, a fim de poder determinar a icógnita que restar, assim partindo dela poder resolver o restante do sistema substituindo termo a termo.
+
+O método foi implementado em python como pedido pela disciplina e executado em cima de uma lista de exercícios. Com isso, é demonstrado a seguir quatro matrizes derivadas dos sistemas das listas e suas respectivas resolução após a execução do método. É apresentado na Tabela 1 a Tabela 12 as matrizes de entrada, as resultantes após a aplicação do método e os resultados encontrados para as icógnitas.
+
 %---------------------------------------------------------------------------------------------------
 % MATRIZ NUMERO 1
 %---------------------------------------------------------------------------------------------------
@@ -245,14 +267,35 @@ Para execução de tais métodos como, \textbf{Eliminação de Gauss, fatoraçã
 \caption{Resultado matriz 4}
 \end{table}
 
+Podemos observar que o resultado das icógnitas é apresentado mantendo a mantissa em quatro digitos, para melhor visualização, o mesmo faz uso de arredontamento. O resultado é apresentado em modelo de coluna seguindo o seguinte padrão:
+
+\left[ \begin{array}{c}
+x \\
+y \\
+z 
+\end{array} \right]
 
 \section{Fatoração LU}
 
+Neste métodos realizamos uma operação um pouco diferente da multiplicação de matrizes. Antes tinhamos \textit{AB=C} agora realização a fatoração da mesma, ou seja, \textit{C=AB}, partiremos de da matriz C e encontraremos as matrizes A e B.
+
+Esse método é interessante pelo fato de que usaremos um computador para computar essa quantidade de matrizes, dado um computador qualquer ele realiza X operações por segundo e, queremos que ele realize menos operações possiveis, dessa forma, vou estar gastando menos tempo. Seguindo o pessamento se temos \textit{Ax=b} para solucionar teremos que \textit{x=inversa(A)b}.E realizar isso um milhão de vezes é muito custoso, até mesmo para maquinas.
+
+Com isso realizando a fatoração LU, teremos ao invés de \textit{Ax=b}, \textit{LUx=b}. Dessa forma estaremos realizando por partes nosso problema, de forma a reduzir o número de operações ates realizados e, assim reduzimos o tempo.
+
+Para aplicação desse métodos basta seguir um simples algoritimo\footnote{Créditos do algoritimo ao MeSalva:\url{https://www.youtube.com/watch?v=6VBdlqrS2yU}}
+\begin{enumerate}[i]
+   \item Escalone A até achar U;
+   \item As colunas de L serão encontradas durante o escalonamento (apenas colunas LI);
+   \item Se A possui mais colunas que linhas, as colunas de L são iguais a I.
+ \end{enumerate}
+
+Para visualização do método, o mesmo foi aplicado a sua lista destinada, os resultados podem ser vistos na Tabela 13 à tabela 21.
 
 %---------------------------------------------------------------------------------------------------
 % MATRIZ 1
 %---------------------------------------------------------------------------------------------------
-\begin{table}[htb]
+\begin{table}[!ht]
   \begin{minipage}[b]{.46\linewidth}
 
     \centering
@@ -297,7 +340,7 @@ Para execução de tais métodos como, \textbf{Eliminação de Gauss, fatoraçã
 %---------------------------------------------------------------------------------------------------
 % MATRIZ 2
 %---------------------------------------------------------------------------------------------------
-\begin{table}[htb]
+\begin{table}[!ht]
   \begin{minipage}[b]{.36\linewidth}
 
     \centering
@@ -323,7 +366,7 @@ Para execução de tais métodos como, \textbf{Eliminação de Gauss, fatoraçã
         -72\\
         362\\
     \end{tabular}
-    \caption{Resolução Matriz 1}
+    \caption{Resolução Matriz 2}
     \label{tab:dir}
   \end{minipage}\hfill
   \begin{minipage}[b]{.36\linewidth}
@@ -346,9 +389,7 @@ Para execução de tais métodos como, \textbf{Eliminação de Gauss, fatoraçã
 % MATRIZ 3
 %---------------------------------------------------------------------------------------------------
 
-\begin{table}[htb]
-  \begin{minipage}[b]{.46\linewidth}
-
+\begin{table}[!h]
     \centering
     \begin{tabular}{|c c c c c c|}
         1           &         0          &           0                        &   0             &   0      &   0\\
@@ -360,10 +401,9 @@ Para execução de tais métodos como, \textbf{Eliminação de Gauss, fatoraçã
     \end{tabular}
     \caption{Matriz L 3}
     \label{tab:esq}
+\end{table}
 
-  \end{minipage}\hfill
-  \begin{minipage}[b]{.46\linewidth}
-
+\begin{table}[!h]
     \centering
     \begin{tabular}{|c c c c c c|}
         4           &         12          &           14                        &   5             &   2      &   -1\\
@@ -375,10 +415,9 @@ Para execução de tais métodos como, \textbf{Eliminação de Gauss, fatoraçã
     \end{tabular}
     \caption{Matriz U 3}
     \label{tab:dir}
-  \end{minipage}\hfill
+\end{table}
 
-  \begin{minipage}[b]{.46\linewidth}
-
+\begin{table}[!h]
     \centering
     \begin{tabular}{|c|}
         23\\
@@ -388,56 +427,254 @@ Para execução de tais métodos como, \textbf{Eliminação de Gauss, fatoraçã
         66\\
         41\\
     \end{tabular}
+    \caption{Resolução Matriz 3}
+    \label{tab:dir}
+\end{table}
+
+
+Apresentando os resultados como  a matriz L, matriz U e a solução para seu respectivo sistema, sendo o resultado apresentado da mesma forma que na seção anterior. Em cada aplicação dos métodos fez-se uso de tamanho de mantissas diferentes seguindo 4, 5 e 8 respectivamente em cada matriz, podendo analizar que temos uma aproximação maior dado um maior numero de cassas decimais.
+
+\section{Cholesky}
+
+Seguindo a mesma idéia em ganho de eficiência como no método anterior apresentado, o método de cholesky tem por objetivo decompor A em G$G^{T}$ desde que sua matriz seja positiva definida. Assim teremos uma matriz triangular inferior e sua matriz adjunta. Esse método é comumente usado para simulações de Monte Carlo, ja demonstrado ser duas vezes mais eficiênte que a fatoração LU. Os resultados podem ser visto a seguir, obervando as Tabelas 22 a 30.
+%--------------------------------------------------------------------------------------------------------------------------------
+%    MATRIZ 1
+%--------------------------------------------------------------------------------------------------------------------------------
+
+\begin{table}[!ht]
+  \begin{minipage}[b]{.36\linewidth}
+
+    \centering
+    \begin{tabular}{|c c c|}
+        3                 &         0                   &           0    \\
+        -2          &         5                   &          0  \\
+        1           &         -1           &          4    \\
+    \end{tabular}
+    \caption{Matriz G 1}
+    \label{tab:dir}
+
+
+  \end{minipage}\hfill
+  \begin{minipage}[b]{.46\linewidth}
+
+    \centering
+    \begin{tabular}{|c|}
+        -1\\
+        0\\
+        2\\
+    \end{tabular}
     \caption{Resolução Matriz 1}
     \label{tab:dir}
   \end{minipage}\hfill
+  \begin{minipage}[b]{.36\linewidth}
+
+    \centering
+    \begin{tabular}{|c c c|}
+        3                 &         -2       &           1  \\
+        0          &         5          &          -1       \\
+        0           &         0               &          4  \\
+    \end{tabular}
+      \caption{Matriz GT 1}
+    \label{tab:esq}
+  \end{minipage}
+
 \end{table}
 
-\section{Gráficos}
-Nesta seção, será apresentado os gráficos gerados a partir da função aplicada aos métodos aqui apresentados e aprendido em aula. Para uma melhor comparação, os gráficos estão dispostos da mesma forma que as tabelas, cada método com a mesma função de entrada. Desta forma a comparação visual é facilitada.
+
+%---------------------------------------------------------------------------------------------------
+% MATRIZ 2
+%---------------------------------------------------------------------------------------------------
+\begin{table}[!ht]
+  \begin{minipage}[b]{.36\linewidth}
+
+    \centering
+    \begin{tabular}{|c c c c|}
+        2           &         0                   &           0             &   0     \\
+        -1          &         1.41421            &          0               &   0     \\
+        2           &         0.70711           &          3.08221                &   0 \\
+        5          &         -1.41422            &           0          &   1.8918  \\
+    \end{tabular}
+    \caption{Matriz G 2}
+    \label{tab:dir}
+
+
+  \end{minipage}\hfill
+  \begin{minipage}[b]{.46\linewidth}
+
+    \centering
+    \begin{tabular}{|c|}
+        3\\
+        1\\
+        -0\\
+        -1\\
+    \end{tabular}
+    \caption{Resolução Matriz 2}
+    \label{tab:dir}
+  \end{minipage}\hfill
+  \begin{minipage}[b]{.36\linewidth}
+
+    \centering
+    \begin{tabular}{|c c c c|}
+        2                 &         -1       &           2             &   5    \\
+        0          &        1.41421          &          0.70711        &   -1.41422      \\
+        0           &         0               &         3.08221      &   0.64889     \\
+        0          &         0                &           0             &   1.8918    \\
+    \end{tabular}
+      \caption{Matriz GT 2}
+    \label{tab:esq}
+  \end{minipage}
+
+\end{table}
+
+
+
+%---------------------------------------------------------------------------------------------------
+% MATRIZ 3
+%---------------------------------------------------------------------------------------------------
+\begin{table}[!ht]
+  \begin{minipage}[b]{.36\linewidth}
+
+    \centering
+    \begin{tabular}{|c c c c c|}
+        1&         0 &           0             &   0     &   0   \\
+        2&         1&          0               &   0     &   0   \\
+        -3&         5&          4                &   0     &   0   \\
+        0&         1&           -1          &   2    &     0  \\
+        3&         -2&           0           &   1    &     5\\
+    \end{tabular}
+    \caption{Matriz G 3}
+    \label{tab:dir}
+
+
+  \end{minipage}\hfill
+  \begin{minipage}[b]{.46\linewidth}
+
+    \centering
+    \begin{tabular}{|c|}
+        -2\\
+        8\\
+        -1\\
+        4\\
+        0\\
+    \end{tabular}
+    \caption{Resolução Matriz 3}
+    \label{tab:dir}
+  \end{minipage}\hfill
+  \begin{minipage}[b]{.36\linewidth}
+
+    \centering
+    \begin{tabular}{|c c c c c|}
+        1           &         2               &           -3             &   0     &   3   \\
+        0          &         1                &          5                &   1     &   -2   \\
+        0           &         0               &          4                &   -1     &   0   \\
+        0          &         0                &           0             &   2    &     1\\
+        0          &         0                &           0             &   0    &    5\\
+    \end{tabular}
+      \caption{Matriz GT 3}
+    \label{tab:esq}
+  \end{minipage}
+
+\end{table}
+
+Como na seção anterior, apresentamos os resultados igualmente, apresentando G e a $G^{T}$. Junto a solução do sistema, para esse método fez-se uso de 5 digitos para mantissa.
+
+\section{Fatoração Gauss-Jacobi}
+
+Aqui iniciamos a primeira seção de metodos iterativos, apresentando Gauss-Jacobi. Tais métodos podem ser mais rapidos e exigir  menos memória do computador, fornecendo sequências que convergem para soluções sob certar condições.
+
+Dito isso, seja \textit{Ax=B} um sistema linear de ordem N. A ideia é generalizar o métodos do ponto fixo, escrevendo o sistema linear \textit{x=Cx+g}, onde C é uma matriz de ordem N e g é um vetor coluna Nx1. Dado um vetor de iteração inicial $x^{(0)}$ podemos ir construindo iterativamente. 
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f1.png}
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f1.png}\\
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f1.png}
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f1.png}
-    \caption{Gráficos da função um executada pelos quatro métodos presentes.}
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_jacobi/1.png}
+    \caption{Gráfico da função um da lista cinco executada pelo método presentes.}
+\end{figure}
+
+Na Figura 1, podemos observar o resultado obtido pela execução do código. Para a primeira execução passamos o erro como 0.05 e um total máximo de iterações 100. Podemos ver que o método se apresentou um tanto quanto eficiente (olhando singularmente), convergindo em apenas 7 iterações.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_jacobi/2.png}
+    \caption{Gráfico da função dois da lista cinco executada pelo método presentes.}
+\end{figure}
+
+Na Figura 2, segui fazendo uso do 0.05 como erro, porém para numero de iterações para uma visualização adequada, foi passado somente quatro, porém testes com numeros mariores foram executados para comprovação de uma convergência a longo prazo, porém o sistema não converge.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_jacobi/3.png}
+    \caption{Gráfico da função três da lista cinco executada pelo método Gauss-Jacobi.}
+\end{figure}
+
+Na Figura 3, Essa é a que converge com 750, vai fazer o que?
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_jacobi/4.png}
+    \caption{Gráfico da função um da lista cinco executada pelo método Gauss-Jacobi.}
+\end{figure}
+
+Seguindo na Figura 4, os mesmo parametros se sucedem, erro em 0.05 e numero de iterações máxima em 4. Neste sistema voltamos a convergir com um numero ainda menor que anteriormente, levando somente 4 iterações.
+
+\section{Fatoração Gauss-Seidel}
+
+Assim como na seção anterior, seguimos com métodos iterativos, o Gauss-Seidel é semelhante ao de Jacobi, seguindo os mesmos critérios para convergência. Neste método é condição suficiente que a matriz seja extritamente diagonal dominante, com isso fica garantido a convergência da sucessão de valores gerados para solução exata do sistema.
+
+Com isso esse método acaba por convergir mais rapido que o Jacobi, isso pode ver visto de acordo com os resultados apresentados a seguir.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_seidel/1.png}
+    \caption{Gráfico da função um da lista cinco executada pelo método Gauss-Seidel.}
+\end{figure}
+
+Na Figura 1 temos como parâmetro de entrada valores parecidos com os do método anterior, erro em 0.05 e numero máximo de iterações em 4. Podemos observar que apenas em um unica iteção o método ja convergiu, enquanto no método anterior precisou-se de 7, ou seja, o método realmente se demonstra mais "rapido" que o anterior.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_seidel/2.png}
+    \caption{Gráfico da função dois da lista cinco executada pelo método Gauss-Seidel.}
 \end{figure}
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f2.png}
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f2.png}\\
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f2.png}
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f2.png}
-    \caption{Gráficos da função dois executada pelos quatro métodos presentes.}
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_seidel/3.png}
+    \caption{Gráfico da função três da lista cinco executada pelo método Gauss-Seidel.}
 \end{figure}
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f3.png}
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f3.png}\\
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f3.png}
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f3.png}
-    \caption{Gráficos da função três executada pelos quatro métodos presentes.}
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_seidel/4.png}
+    \caption{Gráfico da função um da lista cinco executada pelo método Gauss-Seidel.}
 \end{figure}
 
-\begin{figure}[!h]
+\section{Newton}
+
+
+\lipsum[2-4]
+
+\begin{figure}[!ht]
     \centering
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f4.png}
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f4.png}\\
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f4.png}
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f4.png}
-    \caption{Gráficos da função quatro executada pelos quatro métodos presentes.}
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/newton/1.png}
+    \caption{Gráfico da função um da lista cinco executada pelo método Newton.}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f5.png}
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f5.png}\\
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f5.png}
-    \includegraphics[scale=0.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f5.png}
-    \caption{Gráficos da função cinco executada pelos quatro métodos presentes.}
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/newton/2.png}
+    \caption{Gráfico da função dois da lista cinco executada pelo método Newton.}
 \end{figure}
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/newton/3.png}
+    \caption{Gráfico da função três da lista cinco executada pelo método Newton.}
+\end{figure}
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/newton/4.png}
+    \caption{Gráfico da função um da lista cinco executada pelo método Newton.}
+\end{figure}
+
 \end{document}

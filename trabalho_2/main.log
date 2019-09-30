@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.5)  30 SEP 2019 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.8.20)  30 SEP 2019 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -837,7 +837,25 @@ Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (./main.aux
+))
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018-10-17 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count292
+\g__xparse_grabber_int=\count293
+\l__xparse_m_args_int=\count294
+\l__xparse_mandatory_args_int=\count295
+\l__xparse_v_nesting_int=\count296
+)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks37
+) (./main.aux
 
 LaTeX Warning: Label `tab:esq' multiply defined.
 
@@ -864,6 +882,42 @@ LaTeX Warning: Label `tab:esq' multiply defined.
 
 
 LaTeX Warning: Label `tab:dir' multiply defined.
+
+
+LaTeX Warning: Label `tab:dir' multiply defined.
+
+
+LaTeX Warning: Label `tab:dir' multiply defined.
+
+
+LaTeX Warning: Label `tab:esq' multiply defined.
+
+
+LaTeX Warning: Label `tab:esq' multiply defined.
+
+
+LaTeX Warning: Label `tab:dir' multiply defined.
+
+
+LaTeX Warning: Label `tab:dir' multiply defined.
+
+
+LaTeX Warning: Label `tab:dir' multiply defined.
+
+
+LaTeX Warning: Label `tab:dir' multiply defined.
+
+
+LaTeX Warning: Label `tab:esq' multiply defined.
+
+
+LaTeX Warning: Label `tab:dir' multiply defined.
+
+
+LaTeX Warning: Label `tab:dir' multiply defined.
+
+
+LaTeX Warning: Label `tab:esq' multiply defined.
 
 
 LaTeX Warning: Label `tab:dir' multiply defined.
@@ -877,35 +931,35 @@ LaTeX Warning: Label `tab:esq' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
+\scratchcounter=\count297
 \scratchdimen=\dimen291
 \scratchbox=\box61
-\nofMPsegments=\count293
-\nofMParguments=\count294
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count295
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count300
 \MPscratchDim=\dimen292
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
-\everyMPtoPDFconversion=\toks38
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -992,19 +1046,19 @@ ABD: EveryShipout initializing macros
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 48.
+loading the todonotes package. on input line 49.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 51.
 ! Undefined control sequence.
 \@maketitle ...r}[t]{c}\inst {\instnum }\@address 
                                                   \end {tabular}\par } \vglu...
-l.50 \maketitle
+l.51 \maketitle
                
 ? 
 
@@ -1014,314 +1068,315 @@ See the babel package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \br
+l.52 \br
         
 ? 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 63.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 64.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 71.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 72.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 [][]\T1/ptm/m/n/10 Disponivel no AVA:$\T1/pcr/m/n/10 https : / / ava . ufpel . 
 edu . br / pre / pluginfile . php / 313345 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 [][]\T1/ptm/m/n/10 Disponivel no AVA:$\T1/pcr/m/n/10 https : / / ava . ufpel . 
 edu . br / pre / pluginfile . php / 312500 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 [][]\T1/ptm/m/n/10 Disponivel no AVA:$\T1/pcr/m/n/10 https : / / ava . ufpel . 
 edu . br / pre / pluginfile . php / 313753 /
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (82.34677pt too wide) in paragraph at lines 304--311
- [][] 
- []
-
-
-Overfull \hbox (94.34677pt too wide) in paragraph at lines 332--339
- [][] 
- []
-
-
-Overfull \hbox (142.661pt too wide) in paragraph at lines 353--361
- [][] 
- []
-
-
-Overfull \hbox (133.67313pt too wide) in paragraph at lines 368--376
- [][] 
- []
-
+! Missing $ inserted.
+<inserted text> 
+                $
+l.79 \begin{cases}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.83 \end{cases}
+                
+? 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
-ection_f1.png, id=37, 395.4775pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/bisection_f1.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/bisection_f1.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/bisection_f1.png  used on input line 387.
-(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
-se_position_f1.png, id=39, 395.4775pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/false_position_f1.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/false_position_f1.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/false_position_f1.png  used on input line 388.
-(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
-ant_f1.png, id=40, 395.4775pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/secant_f1.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/secant_f1.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/secant_f1.png  used on input line 389.
-(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
-gent_f1.png, id=41, 395.4775pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/tangent_f1.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/tangent_f1.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f1.png  used on input line 390.
-(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
-ection_f2.png, id=42, 395.4775pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/bisection_f2.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/bisection_f2.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/bisection_f2.png  used on input line 396.
-(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
-se_position_f2.png, id=43, 395.4775pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/false_position_f2.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/false_position_f2.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/false_position_f2.png  used on input line 397.
-(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
-ant_f2.png, id=44, 393.47pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/secant_f2.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/secant_f2.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/secant_f2.png  used on input line 398.
-(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
-gent_f2.png, id=45, 395.4775pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/tangent_f2.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/tangent_f2.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f2.png  used on input line 399.
-(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
+
+Underfull \hbox (badness 1742) in paragraph at lines 270--271
+[]\T1/ptm/m/n/12 Podemos observar que o resultado das icógnitas é apresentado m
+antendo
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 270--271
+\T1/ptm/m/n/12 a mantissa em quatro digitos, para melhor visualização, o mesmo 
+faz uso de
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.272 \left
+           [ \begin{array}{c}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.277 
+      
+? 
+[2]
+Overfull \hbox (82.34677pt too wide) in paragraph at lines 347--354
+ [][] 
+ []
+
+
+Overfull \hbox (94.34677pt too wide) in paragraph at lines 375--382
+ [][] 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
-ection_f3.png, id=46, 395.4775pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/bisection_f3.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/bisection_f3.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/bisection_f3.png  used on input line 405.
-(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
-se_position_f3.png, id=47, 391.4625pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/false_position_f3.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/false_position_f3.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/false_position_f3.png  used on input line 406.
-(pdftex.def)             Requested size: 195.73076pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
-ant_f3.png, id=48, 405.515pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/secant_f3.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/secant_f3.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/secant_f3.png  used on input line 407.
-(pdftex.def)             Requested size: 202.75699pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
-gent_f3.png, id=49, 395.4775pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/tangent_f3.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/tangent_f3.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f3.png  used on input line 408.
-(pdftex.def)             Requested size: 197.73827pt x 139.5209pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
-ection_f4.png, id=50, 393.47pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/bisection_f4.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/bisection_f4.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/bisection_f4.png  used on input line 414.
-(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
-se_position_f4.png, id=51, 393.47pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/false_position_f4.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/false_position_f4.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/false_position_f4.png  used on input line 415.
-(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
-ant_f4.png, id=52, 393.47pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/secant_f4.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/secant_f4.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/secant_f4.png  used on input line 416.
-(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
-gent_f4.png, id=53, 393.47pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/tangent_f4.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/tangent_f4.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f4.png  used on input line 417.
-(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bis
-ection_f5.png, id=54, 393.47pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/bisection_f5.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/bisection_f5.png>
+
+Underfull \vbox (badness 1178) has occurred while \output is active []
+
+ [3]
+[4]
+Overfull \hbox (19.34677pt too wide) in paragraph at lines 491--497
+ [][] 
+ []
+
+
+Overfull \hbox (21.35081pt too wide) in paragraph at lines 517--523
+ [][] 
+ []
+
+[5]
+Underfull \hbox (badness 1424) in paragraph at lines 585--585
+\T1/ptm/m/n/12 tincidunt tristique, libero. Vivamus viverra fermentum felis. Do
+nec nonummy
+ []
+
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
+ss_jacobi/1.png, id=55, 615.29875pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/gauss_jacobi/1.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/gauss_jacobi/1.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/bisection_f5.png  used on input line 423.
-(pdftex.def)             Requested size: 196.73451pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/fal
-se_position_f5.png, id=55, 381.425pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/false_position_f5.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/false_position_f5.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/false_position_f5.png  used on input line 424.
-(pdftex.def)             Requested size: 190.71202pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/sec
-ant_f5.png, id=56, 387.4475pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/secant_f5.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/secant_f5.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/secant_f5.png  used on input line 425.
-(pdftex.def)             Requested size: 193.72327pt x 139.5209pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tan
-gent_f5.png, id=57, 389.455pt x 279.0425pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/tangent_f5.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos
-/tangent_f5.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f5.png  used on input line 426.
-(pdftex.def)             Requested size: 194.72702pt x 139.5209pt.
+/trabalho_2/Graficos/gauss_jacobi/1.png  used on input line 588.
+(pdftex.def)             Requested size: 184.59105pt x 174.05157pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2] [3] [4 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/g
-raficos/bisection_f1.png> </home/souza/Documents/semestre_2019-2/calculo_numeri
-co/trabalho_1/graficos/false_position_f1.png> </home/souza/Documents/semestre_2
-019-2/calculo_numerico/trabalho_1/graficos/secant_f1.png> </home/souza/Document
-s/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f1.png> </home/s
-ouza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f
-2.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafi
-cos/false_position_f2.png> </home/souza/Documents/semestre_2019-2/calculo_numer
-ico/trabalho_1/graficos/secant_f2.png> </home/souza/Documents/semestre_2019-2/c
-alculo_numerico/trabalho_1/graficos/tangent_f2.png>] [5 </home/souza/Documents/
-semestre_2019-2/calculo_numerico/trabalho_1/graficos/bisection_f3.png> </home/s
-ouza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/false_posit
-ion_f3.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/
-graficos/secant_f3.png> </home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_1/graficos/tangent_f3.png> </home/souza/Documents/semestre_2019-2/cal
-culo_numerico/trabalho_1/graficos/bisection_f4.png> </home/souza/Documents/seme
-stre_2019-2/calculo_numerico/trabalho_1/graficos/false_position_f4.png> </home/
-souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f4.
-png> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_1/grafico
-s/tangent_f4.png>] [6 </home/souza/Documents/semestre_2019-2/calculo_numerico/t
-rabalho_1/graficos/bisection_f5.png> </home/souza/Documents/semestre_2019-2/cal
-culo_numerico/trabalho_1/graficos/false_position_f5.png> </home/souza/Documents
-/semestre_2019-2/calculo_numerico/trabalho_1/graficos/secant_f5.png> </home/sou
-za/Documents/semestre_2019-2/calculo_numerico/trabalho_1/graficos/tangent_f5.pn
-g>] (./main.aux)
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
+ss_jacobi/2.png, id=57, 605.26125pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/gauss_jacobi/2.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/gauss_jacobi/2.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_2/Graficos/gauss_jacobi/2.png  used on input line 594.
+(pdftex.def)             Requested size: 181.57976pt x 174.05157pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
+ss_jacobi/3.png, id=58, 603.25375pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/gauss_jacobi/3.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/gauss_jacobi/3.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_2/Graficos/gauss_jacobi/3.png  used on input line 600.
+(pdftex.def)             Requested size: 180.97751pt x 174.05157pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
+ss_jacobi/4.png, id=59, 605.26125pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/gauss_jacobi/4.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/gauss_jacobi/4.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_2/Graficos/gauss_jacobi/4.png  used on input line 606.
+(pdftex.def)             Requested size: 181.57976pt x 174.05157pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6]
+Underfull \hbox (badness 1424) in paragraph at lines 614--614
+\T1/ptm/m/n/12 tincidunt tristique, libero. Vivamus viverra fermentum felis. Do
+nec nonummy
+ []
+
+
+Underfull \vbox (badness 1616) has occurred while \output is active []
+
+ [7 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/gauss_jacobi/1.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/tr
+abalho_2/Graficos/gauss_jacobi/2.png> </home/souza/Documents/semestre_2019-2/ca
+lculo_numerico/trabalho_2/Graficos/gauss_jacobi/3.png>]
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
+ss_seidel/1.png, id=70, 615.29875pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/gauss_seidel/1.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/gauss_seidel/1.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_2/Graficos/gauss_seidel/1.png  used on input line 617.
+(pdftex.def)             Requested size: 184.59105pt x 174.05157pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
+ss_seidel/2.png, id=71, 615.29875pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/gauss_seidel/2.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/gauss_seidel/2.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_2/Graficos/gauss_seidel/2.png  used on input line 623.
+(pdftex.def)             Requested size: 184.59105pt x 174.05157pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
+ss_seidel/3.png, id=72, 605.26125pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/gauss_seidel/3.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/gauss_seidel/3.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_2/Graficos/gauss_seidel/3.png  used on input line 629.
+(pdftex.def)             Requested size: 181.57976pt x 174.05157pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: File `/home/souza/Documents/semestre_2019-2/calculo_numerico/tra
+balho_2/Graficos/gauss_seidel/4.png' not found on input line 635.
+
+
+! Package pdftex.def Error: File `/home/souza/Documents/semestre_2019-2/calculo
+_numerico/trabalho_2/Graficos/gauss_seidel/4.png' not found: using draft settin
+g.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.635 ...o/trabalho_2/Graficos/gauss_seidel/4.png}
+                                                  
+? 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/
+gauss_jacobi/4.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/tra
+balho_2/Graficos/gauss_seidel/1.png>]
+Underfull \hbox (badness 1424) in paragraph at lines 643--643
+\T1/ptm/m/n/12 tincidunt tristique, libero. Vivamus viverra fermentum felis. Do
+nec nonummy
+ []
+
+[9 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/
+gauss_seidel/2.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/tra
+balho_2/Graficos/gauss_seidel/3.png>]
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/new
+ton/1.png, id=83, 612.2875pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/newton/1.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/newton/1.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_2/Graficos/newton/1.png  used on input line 646.
+(pdftex.def)             Requested size: 183.68767pt x 174.05157pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/new
+ton/2.png, id=84, 605.26125pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/newton/2.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/newton/2.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_2/Graficos/newton/2.png  used on input line 652.
+(pdftex.def)             Requested size: 181.57976pt x 174.05157pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/new
+ton/3.png, id=85, 612.2875pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/newton/3.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/newton/3.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_2/Graficos/newton/3.png  used on input line 658.
+(pdftex.def)             Requested size: 183.68767pt x 174.05157pt.
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/new
+ton/4.png, id=86, 612.2875pt x 580.1675pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/newton/4.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
+/newton/4.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_2/Graficos/newton/4.png  used on input line 664.
+(pdftex.def)             Requested size: 183.68767pt x 174.05157pt.
+ [10 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
+s/newton/1.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalh
+o_2/Graficos/newton/2.png>] [11 </home/souza/Documents/semestre_2019-2/calculo_
+numerico/trabalho_2/Graficos/newton/3.png> </home/souza/Documents/semestre_2019
+-2/calculo_numerico/trabalho_2/Graficos/newton/4.png>] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25426 strings out of 494541
- 494023 string characters out of 6176674
- 528688 words of memory out of 5000000
- 28683 multiletter control sequences out of 15000+600000
- 560172 words of font info for 57 fonts, out of 8000000 for 9000
- 16 hyphenation exceptions out of 8191
+ 25929 strings out of 494427
+ 505962 string characters out of 6174076
+ 795787 words of memory out of 5000000
+ 29197 multiletter control sequences out of 15000+600000
+ 563641 words of font info for 61 fonts, out of 8000000 for 9000
+ 83 hyphenation exceptions out of 8191
  62i,10n,96p,755b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb>
-Output written on main.pdf (6 pages, 274483 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucr
+r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (11 pages, 311815 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 words of extra memory for PDF output out of 10000 (max. 10000000)
 
