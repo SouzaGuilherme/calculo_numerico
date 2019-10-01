@@ -587,18 +587,18 @@ Dito isso, seja \textit{Ax=B} um sistema linear de ordem N. A ideia é generaliz
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_jacobi/1.png}
-    \caption{Gráfico da função um da lista cinco executada pelo método presentes.}
+    \caption{Gráfico da função um da lista cinco executada pelo método Gauss-Jacobi.}
 \end{figure}
 
-Na Figura 1, podemos observar o resultado obtido pela execução do código. Para a primeira execução passamos o erro como 0.05 e um total máximo de iterações 100. Podemos ver que o método se apresentou um tanto quanto eficiente (olhando singularmente), convergindo em apenas 7 iterações.
+Na Figura 1, podemos observar o resultado obtido pela execução do código. Para a primeira execução passamos o erro como 0.05 e um total máximo de iterações 4. Podemos ver que o método se apresentou um tanto quanto eficiente (olhando singularmente), porém o mesmo só irá convergir  em  7 iterações.
 
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_jacobi/2.png}
-    \caption{Gráfico da função dois da lista cinco executada pelo método presentes.}
+    \caption{Gráfico da função dois da lista cinco executada pelo Gauss-Jacobi.}
 \end{figure}
 
-Na Figura 2, segui fazendo uso do 0.05 como erro, porém para numero de iterações para uma visualização adequada, foi passado somente quatro, porém testes com numeros mariores foram executados para comprovação de uma convergência a longo prazo, porém o sistema não converge.
+Na Figura 2, segui fazendo uso do 0.05 como erro e, para quatro para numero de máximo de iterações, porém testes com numeros mariores foram executados para comprovação de uma convergência a longo prazo, porém o sistema não converge.
 
 \begin{figure}[!h]
     \centering
@@ -606,7 +606,7 @@ Na Figura 2, segui fazendo uso do 0.05 como erro, porém para numero de iteraç�
     \caption{Gráfico da função três da lista cinco executada pelo método Gauss-Jacobi.}
 \end{figure}
 
-Na Figura 3, Essa é a que converge com 750, vai fazer o que?
+Na Figura 3, segue os mesmo parâmetros, testes com maior numero de iterações foram executados, para comprovação de uma convergência em 750 iterações, porém por padronização seguimos com 4 iterações.
 
 \begin{figure}[!h]
     \centering
@@ -628,7 +628,7 @@ Com isso esse método acaba por convergir mais rapido que o Jacobi, isso pode ve
     \caption{Gráfico da função um da lista cinco executada pelo método Gauss-Seidel.}
 \end{figure}
 
-Na Figura 1 temos como parâmetro de entrada valores parecidos com os do método anterior, erro em 0.05 e numero máximo de iterações em 4. Podemos observar que apenas em um unica iteção o método ja convergiu, enquanto no método anterior precisou-se de 7, ou seja, o método realmente se demonstra mais "rapido" que o anterior.
+Na Figura 5 temos como parâmetro de entrada valores parecidos com os do método anterior, erro em 0.05 e numero máximo de iterações em 4. Podemos observar que apenas em quatro iterações o método ja convergiu, enquanto no método anterior precisou-se de 7, ou seja, o método realmente se demonstra mais "rapido" que o anterior.
 
 \begin{figure}[!h]
     \centering
@@ -636,11 +636,15 @@ Na Figura 1 temos como parâmetro de entrada valores parecidos com os do método
     \caption{Gráfico da função dois da lista cinco executada pelo método Gauss-Seidel.}
 \end{figure}
 
+Na Figura 6 ja podemos começar a notar a distância entre os pontos, levando as quatro iterações e ainda sim não convergindo como o anterior. Um maior numero de iterações foi passados para fim de teste de convergência, porém o mesmo segue a não convergir mesmo em 1000 iterações.
+
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gauss_seidel/3.png}
     \caption{Gráfico da função três da lista cinco executada pelo método Gauss-Seidel.}
 \end{figure}
+
+Na Figura 7, encontramos um resultado semelhante com a 6, não convergindo ao final das iterações, e com uma grafico com pontos extremamente distântes.
 
 \begin{figure}[!h]
     \centering
@@ -648,33 +652,60 @@ Na Figura 1 temos como parâmetro de entrada valores parecidos com os do método
     \caption{Gráfico da função um da lista cinco executada pelo método Gauss-Seidel.}
 \end{figure}
 
+Analisando a Figura 8, notamos que voltamos a converir, só que agora com um numero ainda menor que o anterior, convergindo em somente 3 iterações, podemos notar que gráficos que convergem, tendem seus pontos ficarem proximos, quanto aos que não convergem, mantem uma certa distância entre eles, isso é notavel na aplicação deste método, bastando analisar os gráficos.
+
 \section{Newton}
 
+O método de Newton tem por objetivo resolver equações não lineares (observe que estou falando desse método em específico, dado que equação de Newton com algumas alterações tem outros objetivos), assim, consiste em dada uma aproximação inicial $x^{0}$ da solução, calcular a aproximação (formula ocultada), a cada iteração k $\geq$ 0, até que o critério de convergência seja satisfeito, que na minha minha implementação é dado pelo erro e numero iterações.
 
-\lipsum[2-4]
+Como aproximação inicial foi passado para o primeiro sistema [1, 2, 3], erro 0.001 e numero de iteração máxima 4. Para as demais fez-se uso dos mesmo parâmetros, somente alterando a aproximação inicial para [1, 2]. Para os sistemas passado em lista fora encontrado as respectivas soluções, sera aprensentado em cada iteração, observando as Tabelas 31 a 34.
 
-\begin{figure}[!ht]
+\begin{table}[!ht]
     \centering
-    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/newton/1.png}
-    \caption{Gráfico da função um da lista cinco executada pelo método Newton.}
-\end{figure}
+\begin{tabular}{|lll|}
+\multicolumn{1}{|c}{-2.62886598} & 8.04123711 & 3.04123711 \\
+-2.37227892                      & 4.06823601 & 1.7994454  \\
+-2.99221917                      & 1.75082435 & 0.55478453 \\
+-1.18759971                      & 1.38106959 & 0.45175715
+\end{tabular}
+    \caption{Solução do exercício A aplicando Newton.}
+\end{table}
 
-\begin{figure}[!ht]
+\begin{table}[!ht]
     \centering
-    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/newton/2.png}
-    \caption{Gráfico da função dois da lista cinco executada pelo método Newton.}
-\end{figure}
+\begin{tabular}{|ll|}
+\multicolumn{1}{|c}{0.45614035} & 1.05263158 \\
+0.15361382                      & 0.54118776 \\
+-0.03869295                     & 0.27367009 \\
+0.13379586                      & 0.13639852
+\end{tabular}
+    \caption{Solução do exercício B aplicando Newton.}
+\end{table}
 
-\begin{figure}[!ht]
+\begin{table}[!h]
     \centering
-    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/newton/3.png}
-    \caption{Gráfico da função três da lista cinco executada pelo método Newton.}
-\end{figure}
+\begin{tabular}{|ll|}
+\multicolumn{1}{|c}{0.75641026} & 1.45299145 \\
+0.55528735                      & 1.04152146 \\
+0.39175091                      & 0.72646599 \\
+0.26065014                      & 0.48352424
+\end{tabular}
+    \caption{Solução do exercício C aplicando Newton.}
+\end{table}
 
-\begin{figure}[!ht]
+\begin{table}[!h]
     \centering
-    \includegraphics[scale=0.3]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/newton/4.png}
-    \caption{Gráfico da função um da lista cinco executada pelo método Newton.}
-\end{figure}
+\begin{tabular}{|ll|}
+\multicolumn{1}{|c}{0.28169014} & 1.30985915  \\
+-0.42463288                     & 0.95573739  \\
+0.03303406                      & 0.62510336  \\
+0.63138713                      & -0.12186995
+\end{tabular}
+    \caption{Solução do exercício D aplicando Newton.}
+\end{table}
+
+No arquivo .ipynb é encontrado esse método com o numero maximo de iterações em 100 e gráficos plotados para os mesmos, a fim de averiguar quantas mais iterações seria possivel até se aproximar do erro. Com isso podemos ver um maior aproximação, ou seja, uma maior precição de fato, sendo restringindo somente pelo erro e não mais pelo número de iterações.
+
+Porém as entrada são valores "chutes", logo o método de Newton sofre com isso, pois a mesma contém alguns inconvenientes. A aproximação inicial deve estar proxima da solução para que o método venha a convergir. Quando N é grande, pode ser muito custoso calcular e fatorar J(x\textsubscript{k}). Entre outros, ou seja, o conhecimento do método e sua aplicabilidade, deve serem conhecidas antes.
 
 \end{document}
