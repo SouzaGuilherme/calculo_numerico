@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.8.20)  19 NOV 2019 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.5)  20 NOV 2019 04:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,56 +855,7 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks37
-) (./main.aux
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:esq' multiply defined.
-
-
-LaTeX Warning: Label `tab:esq' multiply defined.
-
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:esq' multiply defined.
-
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:esq' multiply defined.
-
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:dir' multiply defined.
-
-
-LaTeX Warning: Label `tab:esq' multiply defined.
-
-)
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
@@ -920,7 +871,8 @@ LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 49.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1071,189 +1023,326 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--73
 edu . br / pre / pluginfile . php / 320366 /
  []
 
-
-Overfull \hbox (22.20067pt too wide) in paragraph at lines 113--116
- [][] 
- []
-
-
-Overfull \hbox (192.19261pt too wide) in paragraph at lines 125--128
- [][] 
- []
-
-
-Overfull \hbox (68.20879pt too wide) in paragraph at lines 137--140
- [][] 
- []
-
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/trapezio
+2.png, id=29, 570.13pt x 262.9825pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/tra
+pezio2.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/trap
+ezio2.png>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_4/img/trapezio2.png  used on input line 84.
+(pdftex.def)             Requested size: 171.04031pt x 78.89534pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (82.34677pt too wide) in paragraph at lines 213--220
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/souza/Documents/seme
+stre_2019-2/calculo_numerico/trabalho_4/img/trapezio2.png>]
+Overfull \hbox (22.20067pt too wide) in paragraph at lines 128--131
  [][] 
  []
 
 
-Overfull \hbox (94.34677pt too wide) in paragraph at lines 241--248
+Overfull \hbox (192.19261pt too wide) in paragraph at lines 140--143
  [][] 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (68.20879pt too wide) in paragraph at lines 152--155
+ [][] 
+ []
 
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/simpson.
+jpeg, id=43, 237.88875pt x 213.79875pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/sim
+pson.jpeg Graphic file (type jpg)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/simp
+son.jpeg>
+Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
+/trabalho_4/img/simpson.jpeg  used on input line 165.
+(pdftex.def)             Requested size: 118.94408pt x 106.89911pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 1067) in paragraph at lines 179--180
+[]\T1/ptm/m/n/12 Pois dessa forma o polinomio é facil de integrar, assim é faci
+l chegar a
+ []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2]
-Overfull \hbox (19.34677pt too wide) in paragraph at lines 357--363
+[2 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/simps
+on.jpeg>]
+Overfull \hbox (22.20067pt too wide) in paragraph at lines 216--219
  [][] 
  []
 
 
-Overfull \hbox (21.35081pt too wide) in paragraph at lines 383--389
+Overfull \hbox (204.19261pt too wide) in paragraph at lines 228--231
+ [][] 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.235 \item \textbf
+                   (F)} 1/3 de Simpsom: 0.5355245326505693
+? 
+
+Underfull \hbox (badness 10000) detected at line 235
+[][]
+ []
+
+! Too many }'s.
+l.235 \item \textbf(F)}
+                        1/3 de Simpsom: 0.5355245326505693
+? 
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.236 \end{itemize}
+                   
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.236 \end{itemize}
+                   
+? 
+
+Overfull \hbox (152.20879pt too wide) in paragraph at lines 239--242
+ [][] 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 \item \textbf
+                   (B)} 3/8 de Simpsom: 24.405365132780666
+? 
+
+Underfull \hbox (badness 10000) detected at line 253
+[][]
+ []
+
+! Too many }'s.
+l.253 \item \textbf(B)}
+                        3/8 de Simpsom: 24.405365132780666
+? 
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 \end{itemize}
+                   
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.254 \end{itemize}
+                   
+? 
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 \item \textbf
+                   (C)} 3/8 de Simpsom: 0.7552413857741727
+? 
+
+Underfull \hbox (badness 10000) detected at line 264
+[][]
+ []
+
+! Too many }'s.
+l.264 \item \textbf(C)}
+                        3/8 de Simpsom: 0.7552413857741727
+? 
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 \end{itemize}
+                   
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.265 \end{itemize}
+                   
+? 
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.275 \item \textbf
+                   (D)} 3/8 de Simpsom: 0.2029697091109325
+? 
+
+Underfull \hbox (badness 10000) detected at line 275
+[][]
+ []
+
+! Too many }'s.
+l.275 \item \textbf(D)}
+                        3/8 de Simpsom: 0.2029697091109325
+? 
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 \end{itemize}
+                   
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.276 \end{itemize}
+                   
+? 
+
+Overfull \hbox (22.20067pt too wide) in paragraph at lines 279--282
+ [][] 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.286 \item \textbf
+                   (E)} 3/8 de Simpsom: -11.336218635489457
+? 
+
+Underfull \hbox (badness 10000) detected at line 286
+[][]
+ []
+
+! Too many }'s.
+l.286 \item \textbf(E)}
+                        3/8 de Simpsom: -11.336218635489457
+? 
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.287 \end{itemize}
+                   
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.287 \end{itemize}
+                   
+? 
+
+Overfull \hbox (198.19261pt too wide) in paragraph at lines 290--293
+ [][] 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297 \item \textbf
+                   (F)} 3/8 de Simpsom: 0.4982574816855577
+? 
+
+Underfull \hbox (badness 10000) detected at line 297
+[][]
+ []
+
+! Too many }'s.
+l.297 \item \textbf(F)}
+                        3/8 de Simpsom: 0.4982574816855577
+? 
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 \end{itemize}
+                   
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.298 \end{itemize}
+                   
+? 
+
+Overfull \hbox (74.20879pt too wide) in paragraph at lines 301--304
  [][] 
  []
 
 [3]
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
-ss_jacobi/1.png, id=47, 615.29875pt x 580.1675pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
-s/gauss_jacobi/1.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
-/gauss_jacobi/1.png>
+</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/euler.pn
+g, id=54, 1644.1425pt x 1287.81125pt>
+File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/eul
+er.png Graphic file (type png)
+<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/eule
+r.png>
 Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_2/Graficos/gauss_jacobi/1.png  used on input line 455.
-(pdftex.def)             Requested size: 184.59105pt x 174.05157pt.
- [4]
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
-ss_jacobi/2.png, id=52, 605.26125pt x 580.1675pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
-s/gauss_jacobi/2.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
-/gauss_jacobi/2.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_2/Graficos/gauss_jacobi/2.png  used on input line 463.
-(pdftex.def)             Requested size: 181.57976pt x 174.05157pt.
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
-ss_jacobi/3.png, id=53, 603.25375pt x 580.1675pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
-s/gauss_jacobi/3.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
-/gauss_jacobi/3.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_2/Graficos/gauss_jacobi/3.png  used on input line 471.
-(pdftex.def)             Requested size: 180.97751pt x 174.05157pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
-ss_jacobi/4.png, id=54, 605.26125pt x 580.1675pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
-s/gauss_jacobi/4.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
-/gauss_jacobi/4.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_2/Graficos/gauss_jacobi/4.png  used on input line 479.
-(pdftex.def)             Requested size: 181.57976pt x 174.05157pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/
-gauss_jacobi/1.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/tra
-balho_2/Graficos/gauss_jacobi/2.png>]
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
-ss_seidel/1.png, id=60, 615.29875pt x 580.1675pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
-s/gauss_seidel/1.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
-/gauss_seidel/1.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_2/Graficos/gauss_seidel/1.png  used on input line 493.
-(pdftex.def)             Requested size: 184.59105pt x 174.05157pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
-ss_seidel/2.png, id=61, 605.26125pt x 580.1675pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
-s/gauss_seidel/2.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
-/gauss_seidel/2.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_2/Graficos/gauss_seidel/2.png  used on input line 501.
-(pdftex.def)             Requested size: 181.57976pt x 174.05157pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
-ss_seidel/3.png, id=62, 610.28pt x 580.1675pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
-s/gauss_seidel/3.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
-/gauss_seidel/3.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_2/Graficos/gauss_seidel/3.png  used on input line 509.
-(pdftex.def)             Requested size: 183.0854pt x 174.05157pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/
-gauss_jacobi/3.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/tra
-balho_2/Graficos/gauss_jacobi/4.png>]
-</home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/gau
-ss_seidel/4.png, id=68, 605.26125pt x 580.1675pt>
-File: /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Grafico
-s/gauss_seidel/4.png Graphic file (type png)
-<use /home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos
-/gauss_seidel/4.png>
-Package pdftex.def Info: /home/souza/Documents/semestre_2019-2/calculo_numerico
-/trabalho_2/Graficos/gauss_seidel/4.png  used on input line 517.
-(pdftex.def)             Requested size: 181.57976pt x 174.05157pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/
-gauss_seidel/1.png> </home/souza/Documents/semestre_2019-2/calculo_numerico/tra
-balho_2/Graficos/gauss_seidel/2.png> </home/souza/Documents/semestre_2019-2/cal
-culo_numerico/trabalho_2/Graficos/gauss_seidel/3.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_2/Graficos/
-gauss_seidel/4.png>] [9] (./main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+/trabalho_4/img/euler.png  used on input line 327.
+(pdftex.def)             Requested size: 115.10173pt x 90.15599pt.
+ [4 </home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/eule
+r.png>] [5] [6] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 25914 strings out of 494427
- 504772 string characters out of 6174076
- 697597 words of memory out of 5000000
- 29184 multiletter control sequences out of 15000+600000
- 563020 words of font info for 59 fonts, out of 8000000 for 9000
- 83 hyphenation exceptions out of 8191
- 62i,10n,96p,602b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
+ 25891 strings out of 494541
+ 502580 string characters out of 6176674
+ 691201 words of memory out of 5000000
+ 29150 multiletter control sequences out of 15000+600000
+ 560172 words of font info for 57 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 62i,8n,96p,602b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ba
+se/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 214735 bytes).
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (6 pages, 222075 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
