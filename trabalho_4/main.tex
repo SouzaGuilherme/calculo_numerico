@@ -64,14 +64,15 @@
   \item Trapezio;
   \item 1/3 de Simpsom;
   \item 3/8 de Simpsom ;
-  \item Euler ???;
+  \item Euler;
   \item Runge-Kutta 2a Ordem;
   \item Runge-Kutta 4a Ordem;
-  \item Adams;
 \end{itemize}
 
 Para execução de tais métodos como, \textbf{Trapezio, 1/3 de Simpsom e 3/8 de Simpsom} foram aplicados na lista de exercícios 11\footnote{Disponivel no AVA:\url{https://ava.ufpel.edu.br/pre/pluginfile.php/318455/mod_resource/content/1/ListaDeExercicios11.pdf}}. Os métodos de \textbf{Euler}, \textbf{Runge-Kutta 2a ordem} e \textbf{4a ordem} utilizou-se a lista de exercícios 12\footnote{Disponivel no AVA:\url{https://ava.ufpel.edu.br/pre/pluginfile.php/320366/mod_resource/content/2/ListaDeExercicios12.pdf}}.
 
+
+Todos os métodos foram desenvolvido na linguagem de programação python, fazendo uso da plataforma Colaboratory (plataforma do Google), o código se encontra disponivel na plataforma para acesso via link\footnote{Código:\url{https://colab.research.google.com/drive/1D2WZN_HYdlaP5LdSa-c4y9_G4DBMhnHT}}
 
 \section{Método do Trapezio}
  O método dos trapazeio é um metodo numerico para aproximação da resolução de um integral definida.
@@ -232,6 +233,7 @@ Desta forma tais métodos se propoe a serem mais precisos que o métodos do trap
 \end{table}
 
 
+\begin{itemize}
 \item \textbf(F)} 1/3 de Simpsom: 0.5355245326505693
 \end{itemize}
 \begin{table}[ht]
@@ -249,9 +251,10 @@ Desta forma tais métodos se propoe a serem mais precisos que o métodos do trap
 %--------------------------------------------------------------------------------------------------------------------------------
 %    Resultados
 %--------------------------------------------------------------------------------------------------------------------------------
-
+\begin{itemize}
 \item \textbf(B)} 3/8 de Simpsom: 24.405365132780666
 \end{itemize}
+
 \begin{table}[ht]
 \centering
 \begin{tabular}{|lllll|}
@@ -261,6 +264,7 @@ Desta forma tais métodos se propoe a serem mais precisos que o métodos do trap
 \end{table}
 
 
+\begin{itemize}
 \item \textbf(C)} 3/8 de Simpsom: 0.7552413857741727
 \end{itemize}
 \begin{table}[ht]
@@ -272,6 +276,7 @@ Desta forma tais métodos se propoe a serem mais precisos que o métodos do trap
 \end{table}
 
 
+\begin{itemize}
 \item \textbf(D)} 3/8 de Simpsom: 0.2029697091109325
 \end{itemize}
 \begin{table}[ht]
@@ -283,6 +288,7 @@ Desta forma tais métodos se propoe a serem mais precisos que o métodos do trap
 \end{table}
 
 
+\begin{itemize}
 \item \textbf(E)} 3/8 de Simpsom: -11.336218635489457
 \end{itemize}
 \begin{table}[ht]
@@ -294,6 +300,7 @@ Desta forma tais métodos se propoe a serem mais precisos que o métodos do trap
 \end{table}
 
 
+\begin{itemize}
 \item \textbf(F)} 3/8 de Simpsom: 0.4982574816855577
 \end{itemize}
 \begin{table}[ht]
@@ -328,14 +335,14 @@ Com isso. apartir do ponto em que está no grafico, é possivel avançar um tama
     \caption{Exemplo de atuação do método de Simpson}
 \end{figure}
 
-\section{Runge-Kutta 2a ordem}
+\section{Runge-Kutta}
 Dado sua precisão e simplicidade um dos métodos mais utilizados é o método de Runge-kutta. è uma familia de métodos que possuem a precisão dos métodos de Taylor, porém não exige o calculo das derivadas de ordem superior.
 
 A demonstração do método base será ocultada como alguns anteriormente aqui apresentados, dado a sua semelhança na sua primeira ordem ao método de Euler e Taylor de primeira ordem.
 
 \subsection{Runge-Kutta 2a ordem}
 
-Dentre a familia deste método temos o de 2a ordem, que é definido por:
+Dentre a familia deste método temos o de 2a ordem, que é definido por\footnote{Formula disponivel em:\url{http://conteudo.icmc.usp.br/pessoas/andretta/ensino/aulas/sme0300-2-13-fisica/aula20-edorungekutta.pdf}}:
 
 $\omega_{i+1} = \omega_{i} + h(c_{1}k_{1} + c_{2}k_{2})$
 
@@ -351,8 +358,156 @@ $k_{2}$ = $f(t_{i}$ + $ha_{a}$, $\omega_{i}$ + $h(a_{2}k_{1})$.
 Dessa forma podemos determinar $c_{1}$, $c_{2}$ e $a_{2}$, desenvolvendo a função $k_{2}$ pelo polinomio de Taylor, em torno de ($t_{i}, \omega_{i}$) até segunda ordem. Assim acabamos por obter um sistema não linear que possui diversas soluções.
 
 \subsection{Runge-Kutta 4a Ordem}
-Através de alguns calculos e algumas mudanças nas variaves tanto da do Runge-Kutta 2a ordem quanto o Runge-Kutta 4-estagios, conseguiremos defirnir um Método de Runge-Kutta 4a ordem.
+Através de alguns calculos e algumas mudanças nas variaves tanto da do Runge-Kutta 2a ordem quanto o Runge-Kutta 4-estagios, conseguiremos defirnir um Método de Runge-Kutta 4a ordem. Através dos calculos chegaremos a um sistema não-linear com solução unica.
 
-Através dos calculos chegaremos a um sistema não-linear com solução unica.
+\section{Disertando sobre os Resultados}
+
+Ao analisarmos os resultados encontrados a apartir da aplicação dos métodos de 1/3, 3/8 de Simpson e o método dos trapezios na lista de exercicio 11, podemos observar que os resultados são bastantes semelhantes, os mesmo podem ser encontrado em suas devidas seções e nas tabelas de 1 à 15.
+
+Dado que o Método dos trapezios foi o que apresentou resultados levemente distante dos demais por dois ou mais. Como exemplo podemos pegar o exercicio (B) no qual ele apresenta 7 a mais que o 3/8 e 9 comparado ao 1/3, da mesma forma ja demonstra a leve diferença entre o 1/3 e 3/8 de Simpson, sendo somnete por dois e menor ainda ao comparar os demais resultados encontrados. Uma boa forma de analisar e que facilita ver a diferença, é ao observar o os valores antes da soma do vetor.
+
+Nos resultados aqui apresentados, ou seja, nesta determinada situação, as descrições dos métodos se fizeram por valer, onde conseguirmos observar que os métodos se Simpson tendem a serem mais precisos comparado ao método dos trapezios.
+
+% QUESTÃO 4, APLICADO RK4 COM GRAFICO
+Na questão 4 da lista 12, ao modificarmos o tamanho do $h$ no Runge-Kutta 4a ordem, podemos notar ao observar o grafico na figura 4, que passos menores aparentemente nos retorna uma presição um pouco melhor, realizando um curva mais aproximativa a qual esperamos. Mas podemos obervar que isso faz com que eu tenha um numero maior de repetição, enquanto em $h$=0.5 realizamos somente 4, com $h$=0.25 realizamos 8 repetições.
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.7]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/rk4Questao4.png}
+    \caption{Resultado da aplicação do Metodo Runge-Kutta 4a Ordem na questão 4 da lista 12}
+\end{figure}
+
+Mas por outro lado ao observarmos a Tabela 16 e 17, com o $h$ maior aparentemente o resultado tende a convergir mais rapido, de forma que é possivel observar ao compararmos a coluna K4 de ambas as tabelas.
+
+\begin{table}[!h]
+    \centering
+\begin{tabular}{c|c|c|c|c|c}
+\textbf{Xk} & \textbf{Yk} & \textbf{K1} & \textbf{K2} & \textbf{K3} & \textbf{K4} \\ \hline
+0.0         & 1.000000    & -1.000000   & -0.703125   & -0.772705   & -0.460236   \\
+0.5         & 0.632342    & -0.474257   & -0.224778   & -0.252065   & 0.000000    \\
+1.0         & 0.513347    & 0.000000    & 0.288758    & 0.329364    & 0.847536    \\
+1.5         & 0.686995    & 0.858744    & 1.859718    & 2.375845    & 5.624753    \\ \hline
+\end{tabular}
+    \caption{Resultado da questão 4 da lista 12 com $h$=0.5 usando o método de Runge-Kutta 4a ordem}
+\end{table}
+
+
+\begin{table}[!h]
+    \centering
+\begin{tabular}{c|c|c|c|c|c}
+\textbf{Xk}               & \textbf{Yk}                   & \textbf{K1}                   & \textbf{K2}                   & \textbf{K3}                   & \textbf{K4}                  \\ \hline
+0.0                       & 1.000000                      & -1.000000                     & -0.861328                     & -0.878391                     & -0.731627                    \\
+0.25                      & 0.782872                      & -0.733943                     & -0.593939                     & -0.608979                     & -0.472971                    \\
+0.50                      & 0.632341                      & -0.474256                     & -0.349208                     & -0.358733                     & -0.237413                    \\
+0.75                      & 0.543693                      & -0.237866                     & -0.120459                     & -0.123899                     & 0.000000                     \\
+\multicolumn{1}{l|}{1.0}  & \multicolumn{1}{l|}{0.513419} & \multicolumn{1}{l|}{0.000000} & \multicolumn{1}{l|}{0.136377} & \multicolumn{1}{l|}{0.140905} & \multicolumn{1}{l}{0.308613} \\
+\multicolumn{1}{l|}{1.25} & \multicolumn{1}{l|}{0.549385} & \multicolumn{1}{l|}{0.309029} & \multicolumn{1}{l|}{0.523699} & \multicolumn{1}{l|}{0.547598} & \multicolumn{1}{l}{0.857855} \\
+\multicolumn{1}{l|}{1.50} & \multicolumn{1}{l|}{0.687279} & \multicolumn{1}{l|}{0.859099} & \multicolumn{1}{l|}{1.303750} & \multicolumn{1}{l|}{1.394939} & \multicolumn{1}{l}{2.136779} \\
+\multicolumn{1}{l|}{1.75} & \multicolumn{1}{l|}{1.036998} & \multicolumn{1}{l|}{2.138809} & \multicolumn{1}{l|}{3.281255} & \multicolumn{1}{l|}{3.640500} & \multicolumn{1}{l}{5.841370} \\ \hline
+\end{tabular}
+    \caption{Resultado da questão 4 da lista 12 com $h$=0.25 usando o método de Runge-Kutta 4a ordem}
+\end{table}
+
+Semelhantemente temos a questão 3 da lista de exercicio 2, porém o método de aplicação utilizado é o método de Euler, sofrendo algumas leves mudança pela forma que foi emplementado o código, onde podemos obervar ser realizado mais uma repetição que o método anterior aplicado na questão 4. 
+
+
+\begin{table}[!h]
+    \centering
+\begin{tabular}{c|c|c}
+\textbf{Xk}              & \textbf{Yk}                   & \textbf{Função}              \\ \hline
+0.0                      & 1.000000                      & 0.000000                     \\
+0.5                      & 0.500000                      & -0.375000                    \\
+1.0                      & 0.312500                      & 0.000000                     \\
+0.75                     & 0.312500                      & 0.390625                     \\
+\multicolumn{1}{l|}{1.0} & \multicolumn{1}{l|}{0.507812} & \multicolumn{1}{l}{1.523438} \\ \hline
+\end{tabular}
+    \caption{Resultado da Questão 3 da lista 12 com $h$=0.5 usando o método de Euler}
+\end{table}
+
+
+
+\begin{table}[!h]
+    \centering
+\begin{tabular}{l|l|l}
+\multicolumn{1}{c|}{\textbf{Xk}} & \multicolumn{1}{c|}{\textbf{Yk}} & \multicolumn{1}{c}{\textbf{Função}} \\ \hline
+\multicolumn{1}{c|}{0.0}         & \multicolumn{1}{c|}{1.000000}    & \multicolumn{1}{c}{0.000000}        \\
+\multicolumn{1}{c|}{0.25}        & \multicolumn{1}{c|}{0.750000}    & \multicolumn{1}{c}{-0.703125}       \\
+\multicolumn{1}{c|}{0.50}        & \multicolumn{1}{c|}{0.574219}    & \multicolumn{1}{c}{-0.430664}       \\
+\multicolumn{1}{c|}{0.75}        & \multicolumn{1}{c|}{0.466553}    & \multicolumn{1}{c}{-0.204117}       \\
+1.0                              & 0.415524                         & 0.000000                            \\
+1.25                             & 0.415524                         & 0.233732                            \\
+1.50                             & 0.473957                         & 0.592446                            \\
+1.75                             & 0.622068                         & 1.283015                            \\
+2.0                              & 0.942822                         & 2.828465                            \\ \hline
+\end{tabular}
+    \caption{Resultado da questão 3 da lista 12 com $h$=0.25, usando o método Euler}
+\end{table}
+
+Ao obersevarmos as Tabelas 18 e 19, podemos notar que quanto menor o $h$ a distância de presição passa a ser 0.3 ou mais, porém os restante o se asemelha as afirmações anterior ditas para o método de Runge-Kutta 4a ordem. Ao analisarmos o Grafico 5 podemos notar que seu comportamento também acaba por se asemlhar ao anterior, porém um disntância maior é apresentada entre as retas dispostas no gráfico.
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.7]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/eulerQuestao3.png}
+    \caption{Resultado da aplicação do Metodo de Euler na questão 3 da lista 12}
+\end{figure}
+
+
+%Falando sobre a questão 1 onde os 3 métodos são aplicados
+
+\begin{table}[!h]
+    \centering
+\begin{tabular}{c|c|c}
+\textbf{Xk} & \textbf{Yk} & \textbf{Função} \\ \hline
+0.0         & 10.000000   & 0.000000        \\
+1.0         & 27.826087   & 38.819758       \\
+2.0         & 66.645845   & 36.733675       \\
+3.0         & 103.379521  & -25.574117      \\ \hline
+\end{tabular}
+    \caption{Resultado da questão 1 da lista 12 usando o método de Euler}
+\end{table}
+
+
+\begin{table}[!h]
+    \centering
+\begin{tabular}{c|c|c|c|c|c}
+\textbf{Xk} & \textbf{Yk} & \textbf{K1} & \textbf{K2} & \textbf{K3} & \textbf{K4} \\ \hline
+0.0         & 10.000000   & 17.826087   & 30.049930   & 36.435824   & 45.995871   \\
+1.0         & 42.798911   & 45.777240   & 37.573938   & 40.719138   & 15.399913   \\
+2.0         & 79.092795   & 22.192759   & 3.550366    & 19.570089   & -14.290856  \\ \hline
+\end{tabular}
+    \caption{Resultado da questão 1 da lista 12 usando Runge-Kutta 4a ordem}
+\end{table}
+
+
+\begin{table}[!h]
+    \centering
+\begin{tabular}{c|c|c|c|}
+\textbf{Xk} & \textbf{Yk} & \textbf{K1} & \textbf{K2} \\ \hline
+0.0         & 10.000000   & 17.826087   & -27.826087  \\
+1.0         & 5.000000    & 9.456522    & -28.913043  \\
+2.0         & -4.728261   & -9.942532   & 44.012377   \\ \hline
+\end{tabular}
+    \caption{Resultado da questão 1 da lista 12 usando Runge-Kutta 2a ordem}
+\end{table}
+
+
+Para resolução da questão 2 da lista 12, fez-se uso dos métodos Runge-Kutta 2a e 4a ordem, para resolução da questão, foi definida por ela um $h$=0.5 minutos. Podemos obervar nas figuras 6 e 7 onde podemos observar que os metodos obtiveram conclusões semelhantes em 54.0 minutos, podendo observar o comportamento da tabela apresentada na figura, uma parte da mesma foi ocultada para proporcionar uma melhor vizualização.
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=2.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/rk2Questao2.png}
+    \caption{Resultado da aplicação do Metodo de Runge-Kutta 2a ordem na questão 2 da lista 12}
+\end{figure}
+
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=2.5]{/home/souza/Documents/semestre_2019-2/calculo_numerico/trabalho_4/img/rk4Questao2.png}
+    \caption{Resultado da aplicação do Metodo de Runge-Kutta 4a ordem na questão 2 da lista 12}
+\end{figure}
 
 \end{document}
